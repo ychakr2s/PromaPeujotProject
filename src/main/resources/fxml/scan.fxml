@@ -1,13 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
-
-<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.Controller">
-   <children>
-      <Button layoutX="96.0" layoutY="233.0" mnemonicParsing="false" text="Button" />
-      <ChoiceBox layoutX="96.0" layoutY="124.0" prefWidth="150.0" />
-      <ColorPicker layoutX="369.0" layoutY="85.0" />
-      <Label layoutX="446.0" layoutY="237.0" text="Label" />
-   </children>
-</AnchorPane>
+<?import javafx.scene.layout.Pane?>
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="538.0"
+      prefWidth="916.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="controller.Controller">
+    <children>
+        <Button layoutX="181.0" layoutY="308.0" mnemonicParsing="false" onAction="#getEingabe" text="ausführen"/>
+        <TextField fx:id="eps" layoutX="150.0" layoutY="215.0" onAction="#getEingabe" prefHeight="25.0"
+                   prefWidth="142.0"/>
+        <TextField fx:id="mu" layoutX="150.0" layoutY="132.0" onAction="#getEingabe" prefHeight="25.0"
+                   prefWidth="142.0"/>
+        <Label layoutX="38.0" layoutY="219.0" text="eps eingeben"/>
+        <Label layoutX="38.0" layoutY="137.0" text="Mu eingeben"/>
+        <Button layoutX="150.0" layoutY="49.0" mnemonicParsing="false" onAction="#uploadsingle" text="Graph hochladen"/>
+        <Separator layoutX="367.0" layoutY="14.0" orientation="VERTICAL" prefHeight="538.0" prefWidth="0.0"/>
+        <TextArea fx:id="display" layoutX="408.0" layoutY="61.0" prefHeight="429.0" prefWidth="458.0"/>
+    </children>
+</Pane>

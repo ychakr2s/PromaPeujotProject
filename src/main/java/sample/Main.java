@@ -14,20 +14,20 @@ import java.net.URL;
 public class Main extends Application {
 
     @Override
-    public void start(Stage primaryStage) throws Exception {
+    public void start(Stage stage) throws Exception {
         URL url = new File("src/main/resources/fxml/scan.fxml").toURI().toURL();
         Parent root = FXMLLoader.load(url);
 
-        primaryStage.setTitle("Hello world Application");
-        primaryStage.setWidth(500);
-        primaryStage.setHeight(500);
+        stage.setTitle("Hello world Application");
+//        stage.setWidth(700);
+//        stage.setHeight(700);
 
-        Label helloWorldLabel = new Label("Hello world!");
-        helloWorldLabel.setAlignment(Pos.CENTER);
-        Scene primaryScene = new Scene(root);
-        primaryStage.setScene(primaryScene);
+//        Label helloWorldLabel = new Label("Hello world!");
+//        helloWorldLabel.setAlignment(Pos.CENTER);
+        Scene primaryScene = new Scene(root,980, 700);
+        stage.setScene(primaryScene);
 
-        primaryStage.show();
+        stage.show();
     }
 
     public static void main(String[] args) {
