@@ -1,11 +1,9 @@
-package sample;
+package main;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
-import javafx.geometry.Pos;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
-import javafx.scene.control.Label;
 import javafx.stage.Stage;
 
 import java.io.File;
@@ -19,12 +17,8 @@ public class Main extends Application {
         Parent root = FXMLLoader.load(url);
 
         stage.setTitle("Hello world Application");
-//        stage.setWidth(700);
-//        stage.setHeight(700);
 
-//        Label helloWorldLabel = new Label("Hello world!");
-//        helloWorldLabel.setAlignment(Pos.CENTER);
-        Scene primaryScene = new Scene(root,980, 700);
+        Scene primaryScene = new Scene(root, 980, 700);
         stage.setScene(primaryScene);
 
         stage.show();
