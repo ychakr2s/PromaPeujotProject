@@ -333,6 +333,7 @@ public class scanAlgorithm implements abstractScan {
         for (int n : nonMember) {
             if (isHub(n)) {
                 this.hubs.add(n);
+                System.out.println("hubs " + hubs);
             } else
                 this.outliers.add(n);
         }

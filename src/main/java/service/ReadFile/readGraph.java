@@ -95,6 +95,7 @@
 
          } catch (IOException e) {
              e.printStackTrace();
+             e.getMessage();
          }
          return gr;
      }
