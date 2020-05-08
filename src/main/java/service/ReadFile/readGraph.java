@@ -113,11 +113,17 @@
                      splited = line.split("\\s+");
                      if (splited[0].equals("e")) {
                          method = "dimacsToGraph";
+                         break;
                      } else if (isNumeric(splited[0])) {
                          method = "selfGenerated";
+                         break;
                      } else
                          method = "wrong";
+                 } else if (splited[0].equals("{")) {
+                     method = "jsonToGraph";
+                     break;
                  }
+
 
                  line = reader.readLine();
              }
@@ -129,12 +135,14 @@
          return method;
      }
 
-     public graph createGraph(String path) {
+     public graph initialaizeGraf(String path) {
          switch (chooseCreation(path)) {
              case "dimacsToGraph":
                  return dimacsToGraph(path);
              case "selfGenerated":
                  return selfGenerated(path);
+             case "jsonToGraph":
+                 return jsonToGraph(path);
              default:
                  return null;
          }

@@ -49,7 +49,7 @@ public class Controller {
         }
     }
 
-    public boolean isNumeric(String str) {
+    private boolean isNumeric(String str) {
         try {
             Double.parseDouble(str);
             return true;
@@ -62,7 +62,7 @@ public class Controller {
      ** This Method checks Whether the Input is valid or not.
      ** it initializes the Mu and the Epsilon values
      */
-    public boolean inputReady(String mu, String ep) {
+    private boolean inputReady(String mu, String ep) {
         if (isNumeric(mu) && isNumeric(ep)) {
             this.m = Float.parseFloat(mu);
             this.ep = Float.parseFloat(ep);
@@ -75,10 +75,10 @@ public class Controller {
      ** This Method checks whether the Graph can be created or not
      ** It initializes the Graph
      */
-    public boolean createGraph(String path) {
+    private boolean createGraph(String path) {
         readGraph rd = new readGraph();
         try {
-            this.gr = rd.createGraph(path);
+            this.gr = rd.initialaizeGraf(path);
             return true;
         } catch (Exception e) {
             return false;
@@ -86,7 +86,7 @@ public class Controller {
     }
 
     /*
-     ** This Method executes the ScanAlgorithm with the Condition that mu and eps und the Graph are uploaded
+     ** This Method executes the ScanAlgorithm with the Condition that mu and eps und the Graph are valid
      */
     public void execute(javafx.event.ActionEvent actionEvent) {
 
