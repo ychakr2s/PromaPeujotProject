@@ -287,9 +287,7 @@ public class scanAlgorithm implements abstractScan {
         ArrayList<Integer> nonMember = new ArrayList<>();
         boolean[] unclassfied = getUnclassified();
         int i = 0;
-        int k = 12;
-        for (int w = 0; w < vertices.size(); w++) {
-            int v = vertices.get(k);
+        for (int v : vertices) {
             if (!unclassfied[v]) { // checks if v is classified
                 // check whether v is a core
                 if (isCore(v)) {
@@ -327,7 +325,7 @@ public class scanAlgorithm implements abstractScan {
                     nonMember.add(v);
                 }
             }
-            k = w;
+
         }
 
         for (int n : nonMember) {

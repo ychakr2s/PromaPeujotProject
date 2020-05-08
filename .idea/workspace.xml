@@ -2,17 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7568c3df-57ef-49d6-9482-44e38cf979f4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/main/test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/Controller.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/service/Algorithm/scanAlgorithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/Algorithm/scanAlgorithm.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/service/Input_Files/testGraph.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/Input_Files/testGraph.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/service/ReadFile/readGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/ReadFile/readGraph.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/scan.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/scan.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/controller/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controller/Controller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/fxml/scan.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fxml/scan.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/service/Algorithm/scanAlgorithm.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/service/Algorithm/scanAlgorithm.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/service/ReadFile/readGraph.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/service/ReadFile/readGraph.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,7 +48,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../scanSoftware" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
@@ -144,7 +139,8 @@
       <workItem from="1588112352736" duration="10000000" />
       <workItem from="1588801137804" duration="1198000" />
       <workItem from="1588845164776" duration="2801000" />
-      <workItem from="1588867403118" duration="2082000" />
+      <workItem from="1588867403118" duration="3356000" />
+      <workItem from="1588935890080" duration="7770000" />
     </task>
     <servers />
   </component>

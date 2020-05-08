@@ -10,14 +10,8 @@ import service.Algorithm.scanAlgorithm;
 import service.ReadFile.readGraph;
 
 import java.io.File;
-import java.nio.file.FileSystems;
-import java.nio.file.Files;
-import java.nio.file.Path;
 
 public class Controller {
-
-    @FXML
-    private Button btnGraphPath;
 
     @FXML
     private TextField eps;
@@ -41,6 +35,9 @@ public class Controller {
         this.ep = 0;
     }
 
+    /*
+     ** This Method get the Path of the File when it is uploaded
+     */
     public void uploadsingle(javafx.event.ActionEvent actionEvent) {
         FileChooser fc = new FileChooser();
 
@@ -52,7 +49,7 @@ public class Controller {
         }
     }
 
-    public static boolean isNumeric(String str) {
+    public boolean isNumeric(String str) {
         try {
             Double.parseDouble(str);
             return true;
@@ -61,57 +58,51 @@ public class Controller {
         }
     }
 
+    /*
+     ** This Method checks Whether the Input is valid or not.
+     ** it initializes the Mu and the Epsilon values
+     */
     public boolean inputReady(String mu, String ep) {
-//        mu = this.mu.getText();
-//        ep = this.eps.getText();
         if (isNumeric(mu) && isNumeric(ep)) {
             this.m = Float.parseFloat(mu);
             this.ep = Float.parseFloat(ep);
             return true;
         }
-        System.out.println("EPS is bigg");
         return false;
     }
 
+    /*
+     ** This Method checks whether the Graph can be created or not
+     ** It initializes the Graph
+     */
     public boolean createGraph(String path) {
+        readGraph rd = new readGraph();
         try {
-            readGraph rd = new readGraph();
-            this.gr = rd.selfGenerated(path);
+            this.gr = rd.createGraph(path);
             return true;
         } catch (Exception e) {
             return false;
         }
     }
 
-    public boolean checkFile(String pfad) {
-        File file = new File(pfad);
-
-        Path path = FileSystems.getDefault().getPath(pfad);
-        System.out.println(" IS : " + Files.isWritable(path));
-
-        boolean b = file.isFile() && file.canWrite() && file.canRead() && Files.isWritable(path);
-        return b;
-
-    }
-
+    /*
+     ** This Method executes the ScanAlgorithm with the Condition that mu and eps und the Graph are uploaded
+     */
     public void execute(javafx.event.ActionEvent actionEvent) {
 
         String muu = mu.getText();
         String epsilon = eps.getText();
 
-        if (!filePath.isEmpty() && inputReady(muu, epsilon) && createGraph(filePath)) {
-            System.out.println(gr.toString());
+        if (!filePath.isEmpty() && inputReady(muu, epsilon) && createGraph(filePath) && gr != null) {
+
             scanAlgorithm sc = new scanAlgorithm(gr, ep, m);
-            System.out.println(ep + " EP. " + " M: " + m);
             sc.executeScanAlgorithm();
-            System.out.println(sc.toString());
             display.setText(sc.toString());
 
         } else {
             display.setText("Die Eingabe ist falsch");
         }
 
-        System.out.println("hier: " + muu + " " + epsilon);
     }
 
 }

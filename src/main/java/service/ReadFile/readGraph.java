@@ -18,8 +18,8 @@
 
  package service.ReadFile;
 
- import service.Graph.graph;
  import com.google.gson.Gson;
+ import service.Graph.graph;
 
  import java.io.BufferedReader;
  import java.io.FileReader;
@@ -81,7 +81,6 @@
                  if (splited[0].equals("p")) {
                      gr = new graph(Integer.parseInt(splited[1]));
                      gr.setEdge(Integer.parseInt(splited[2]));
-//                    gr.computeDensity();
                  } else if (splited[0].equals("")) {
                      break;
                  } else {
@@ -98,6 +97,56 @@
              e.getMessage();
          }
          return gr;
+     }
+
+     public String chooseCreation(String filename) {
+         Path path = Paths.get(filename);
+         String method = "";
+
+         try {
+             BufferedReader reader = new BufferedReader(new FileReader(String.valueOf(path)));
+             String line = reader.readLine();
+             while (line != null) {
+                 String[] splited = line.split("\\s+");
+                 if (splited[0].equals("p")) {
+                     line = reader.readLine();
+                     splited = line.split("\\s+");
+                     if (splited[0].equals("e")) {
+                         method = "dimacsToGraph";
+                     } else if (isNumeric(splited[0])) {
+                         method = "selfGenerated";
+                     } else
+                         method = "wrong";
+                 }
+
+                 line = reader.readLine();
+             }
+             reader.close();
+
+         } catch (IOException e) {
+             e.printStackTrace();
+         }
+         return method;
+     }
+
+     public graph createGraph(String path) {
+         switch (chooseCreation(path)) {
+             case "dimacsToGraph":
+                 return dimacsToGraph(path);
+             case "selfGenerated":
+                 return selfGenerated(path);
+             default:
+                 return null;
+         }
+     }
+
+     public boolean isNumeric(String str) {
+         try {
+             Double.parseDouble(str);
+             return true;
+         } catch (NumberFormatException e) {
+             return false;
+         }
      }
 
      /*
