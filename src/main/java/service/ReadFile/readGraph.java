@@ -117,13 +117,14 @@
                      } else if (isNumeric(splited[0])) {
                          method = "selfGenerated";
                          break;
-                     } else
+                     } else {
                          method = "wrong";
+                         break;
+                     }
                  } else if (splited[0].equals("{")) {
                      method = "jsonToGraph";
                      break;
                  }
-
 
                  line = reader.readLine();
              }
@@ -132,6 +133,7 @@
          } catch (IOException e) {
              e.printStackTrace();
          }
+
          return method;
      }
 

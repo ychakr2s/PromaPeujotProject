@@ -9,6 +9,6 @@ public class Test {
         Controller cr = new Controller();
 
 
-        System.out.println(cr.isNumeric("2"));
+//        System.out.println(cr.isNumeric("2"));
     }
 }
