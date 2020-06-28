@@ -342,7 +342,7 @@ public class scanAlgorithm implements abstractScan {
         setTimeComplexity(time);
 
         return new scanJson("Scan Algorithm", getOutliers(), getHubs(), getRefinedClusters(getOutputCluster()), getRefinedClusters(getOutputCluster()).length,
-                generalCluster(getOutputCluster()), getTimeComplexity());
+                getTimeComplexity());
     }
 
     public String toString() {

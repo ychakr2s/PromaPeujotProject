@@ -9,16 +9,16 @@ public class scanJson {
     ArrayList<Integer> hubs;
     HashSet[] Clusters;
     int numberCluster;
-    ArrayList<Integer> generalCluster;
+
     double timeComplexity;
 
-    public scanJson(String name, ArrayList<Integer> outliers, ArrayList<Integer> hubs, HashSet[] outputCluster, int num, ArrayList<Integer> generalCluster, double timeComplexity) {
+    public scanJson(String name, ArrayList<Integer> outliers, ArrayList<Integer> hubs, HashSet[] outputCluster, int num, double timeComplexity) {
         this.name = name;
         this.outliers = outliers;
         this.hubs = hubs;
         this.Clusters = outputCluster;
         this.numberCluster = num;
-        this.generalCluster = generalCluster;
+//        this.generalCluster = generalCluster;
         this.timeComplexity = timeComplexity;
     }
 }

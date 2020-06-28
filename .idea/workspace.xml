@@ -2,29 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7568c3df-57ef-49d6-9482-44e38cf979f4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/main/test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/service/Algorithm/plusPlus.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/service/Algorithm/scanPlusPlus.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/service/Input_Files/testGraph.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/service/Main/scanFileJson.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/service/Main/scanFileString.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/service/Main/scanJsonTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/service/Main/scanString.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/service/Main/testScanPlus.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/service/Output_Files/output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/service/ReadFile/readGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/ReadFile/readGraph.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/scanSoftware.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/service/Main/scanFileJson.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/service/Main/scanFileString.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/service/Main/scanJsonTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/service/Main/scanString.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/service/Main/testScanPlus.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/service/ReadFile/readGraph.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/service/ReadFile/readGraph.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/Algorithm/scanAlgorithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/Algorithm/scanAlgorithm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/CreateJson/scanJson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/CreateJson/scanJson.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -196,7 +176,7 @@
       <workItem from="1593028665576" duration="3446000" />
       <workItem from="1593114753325" duration="1570000" />
       <workItem from="1593254911059" duration="3270000" />
-      <workItem from="1593344167828" duration="2940000" />
+      <workItem from="1593344167828" duration="4614000" />
     </task>
     <servers />
   </component>
