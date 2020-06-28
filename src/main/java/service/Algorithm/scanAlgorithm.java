@@ -335,7 +335,7 @@ public class scanAlgorithm implements abstractScan {
             } else
                 this.outliers.add(n);
         }
-        double time = (System.currentTimeMillis() - start);
+        double time = (System.currentTimeMillis() - start) / 1000;
         /*
          ** In order to get the Time Complexity in second you can divide time in 1000 (/ 1000)
          */
@@ -357,8 +357,8 @@ public class scanAlgorithm implements abstractScan {
             string.append(" -> ").append(pCrawl);
         }
         string.append("\n").append("numberCluster: ").append(getRefinedClusters(getOutputCluster()).length).append("\n");
-        string.append("generalCluster: ").append(generalCluster(getOutputCluster())).append("\n");
-        string.append("timeComplexity: ").append(getTimeComplexity()).append(" ms");
+//        string.append("generalCluster: ").append(generalCluster(getOutputCluster())).append("\n");
+        string.append("timeComplexity: ").append(getTimeComplexity()).append(" s");
 
         return string.toString();
     }
