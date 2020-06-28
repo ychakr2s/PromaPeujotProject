@@ -1,12 +1,11 @@
 package controller;
 
-import service.Graph.graph;
 import javafx.fxml.FXML;
-import javafx.scene.control.Button;
 import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
 import javafx.stage.FileChooser;
 import service.Algorithm.scanAlgorithm;
+import service.Graph.graph;
 import service.ReadFile.readGraph;
 
 import java.io.File;
@@ -49,6 +48,9 @@ public class Controller {
         }
     }
 
+    /*
+     ** This method checks whether the inputted String a number or not
+     */
     private boolean isNumeric(String str) {
         try {
             Double.parseDouble(str);
@@ -59,7 +61,7 @@ public class Controller {
     }
 
     /*
-     ** This Method checks Whether the Input is valid or not.
+     ** This Method checks Whether the Input (mu and eps)is valid or not.
      ** it initializes the Mu and the Epsilon values
      */
     private boolean inputReady(String mu, String ep) {
@@ -78,7 +80,7 @@ public class Controller {
     private boolean createGraph(String path) {
         readGraph rd = new readGraph();
         try {
-            this.gr = rd.initialaizeGraf(path);
+            this.gr = rd.initialize_Graph(path);
             return true;
         } catch (Exception e) {
             return false;
