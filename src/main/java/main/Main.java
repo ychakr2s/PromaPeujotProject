@@ -16,9 +16,9 @@ public class Main extends Application {
         URL url = new File("src/main/resources/fxml/scan.fxml").toURI().toURL();
         Parent root = FXMLLoader.load(url);
 
-        stage.setTitle("Hello world Application");
+        stage.setTitle("Scan Application");
 
-        Scene primaryScene = new Scene(root, 980, 700);
+        Scene primaryScene = new Scene(root, 980, 800);
         stage.setScene(primaryScene);
 
         stage.show();
