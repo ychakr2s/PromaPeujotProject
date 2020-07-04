@@ -44,7 +44,6 @@ public class Controller {
 
         if (f != null) {
             filePath = f.getAbsolutePath();
-            System.out.println("hier: " + filePath);
         }
     }
 
@@ -80,7 +79,7 @@ public class Controller {
     private boolean createGraph(String path) {
         readGraph rd = new readGraph();
         try {
-            this.gr = rd.initialize_Graph(path);
+            this.gr = rd.factoryGraph(path);
             return true;
         } catch (Exception e) {
             return false;
