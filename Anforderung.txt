@@ -1,0 +1,6 @@
+
+composant file:
+	Button -> (valider et enregistrer)
+	Button -> (retouche) -> (retourner ou production)
+	Button -> (abondonner) ->(enristrer sans valider)
+	

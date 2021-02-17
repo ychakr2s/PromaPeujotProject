@@ -1,0 +1,106 @@
+
+.contDate {
+    -fx-font-weight: bold;
+    -fx-font-size: 21px;
+}
+
+.contshift {
+    -fx-text-alignment: center;
+    -fx-padding: 0px 0px 50% 0px;
+    -fx-font-weight: bold;
+    -fx-font-size: 21px;
+}
+
+.statusCont {
+    -fx-font-size: 21px;
+    -fx-font-weight: bold;
+    -fx-text-alignment: center;
+}
+
+.suivant {
+    -fx-font-weight: 700;
+}
+
+.borderTable {
+    -fx-border-color: #000;
+    -fx-border-width: 2px;
+    fx-font-size: 15px;
+}
+
+.fontSize {
+    /*-fx-font-size: 4px;*/
+}
+
+.paddingText {
+    -fx-padding: 0 5px 5px;
+    text-align: center;
+}
+
+.listviewBackground {
+    -fx-background-color: #000;
+}
+
+.labelFix {
+    -fx-border-color: #000;
+    -fx-border-width: 2;
+    -fx-padding: 4px;
+    /*-fx-border-color: ;*/
+}
+
+.imgSize {
+    -fx-max-width: 331px;
+}
+
+.backgroundTitle {
+    -fx-background-color: #7d9ec4;
+    /*-fx-border-radius: 10px;*/
+    -fx-border-color: #2f5863;
+    -fx-font-weight: 700;
+    -fx-font-family: initial;
+}
+
+#compEnr {
+    -fx-background-color: #80c5e0;
+    -fx-font-weight: 700;
+    -fx-text-fill: #2f2626
+}
+
+#compValEnr {
+    -fx-background-color: #90c79d;
+    -fx-font-weight: 700;
+    -fx-text-fill: #2f2626
+}
+
+.compoValue {
+    -fx-font-size: 16;
+    -fx-font-weight: 700;
+    /*-fx-text-alignment: right;*/
+}
+
+.combControleur {
+    -fx-font-size: 21;
+    -fx-font-weight: 700;
+}
+
+/* Start Isola */
+.listviewBackground {
+    /*-fx-background-color: #000000;*/
+    -fx-background-color: transparent;
+}
+
+.isolaTitle {
+    -fx-font-size: 28px;
+    -fx-text-alignment: center;
+}
+
+.isolaCard {
+    -fx-border-color: #282525;
+    -fx-border-width: 4px;
+    -fx-border-radius: 2px;
+}
+
+.isolaCadrGroup1 {
+
+}
+
+/* End Isola */

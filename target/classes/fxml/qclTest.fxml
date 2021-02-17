@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.FlowPane?>
+
+<ListView maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1229.0" prefWidth="756.0" styleClass="listviewBackground" stylesheets="@../../../../../checkLists/src/com/resources/asset/style.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+    <AnchorPane prefHeight="1231.0" prefWidth="744.0">
+        <FlowPane layoutX="22.0" layoutY="286.0" prefHeight="248.0" prefWidth="330.0" styleClass="borderTable" stylesheets="@../../../../../pejoProject/src/main/resources/date.css">
+            <children>
+                <Label prefHeight="18.0" prefWidth="19.0" stylesheets="@../../../../../pejoProject/src/main/resources/date.css" text="3">
+                    <padding>
+                        <Insets left="5.0" />
+                    </padding>
+                    <styleClass>
+                        <String fx:value="borderTable" />
+                        <String fx:value="fontSize" />
+                        <String fx:value="paddingText" />
+                    </styleClass>
+                </Label>
+                <Label prefHeight="29.0" prefWidth="307.0" stylesheets="@../../../../../pejoProject/src/main/resources/date.css" text="Exes/ Grains de soudure">
+                    <padding>
+                        <Insets left="10.0" />
+                    </padding>
+                    <styleClass>
+                        <String fx:value="borderTable" />
+                        <String fx:value="fontSize" />
+                        <String fx:value="paddingText" />
+                    </styleClass>
+                </Label>
+                <ImageView fitHeight="159.0" fitWidth="333.0" pickOnBounds="true" preserveRatio="true" styleClass="borderTable">
+                    <image>
+                        <Image url="@../../../../../pejoProject/src/main/resources/img/qcl1.png" />
+                    </image>
+                </ImageView>
+                <Label prefHeight="54.0" prefWidth="238.0" stylesheets="@../../../../../pejoProject/src/main/resources/date.css" text="Support COI AV/ARx2">
+                    <styleClass>
+                        <String fx:value="borderTable" />
+                        <String fx:value="fontSize" />
+                        <String fx:value="paddingText" />
+                    </styleClass>
+                </Label>
+                <ComboBox fx:id="comb1" prefHeight="51.0" prefWidth="93.0" promptText="choose" />
+            </children>
+        </FlowPane>
+
+        <FlowPane layoutX="22.0" layoutY="552.0" prefHeight="248.0" prefWidth="330.0" styleClass="borderTable" stylesheets="@../../../../../pejoProject/src/main/resources/date.css">
+            <children>
+                <Label prefHeight="18.0" prefWidth="19.0" stylesheets="@../../../../../pejoProject/src/main/resources/date.css" text="5">
+                    <padding>
+                        <Insets left="5.0" />
+                    </padding>
+                    <styleClass>
+                        <String fx:value="borderTable" />
+                        <String fx:value="fontSize" />
+                        <String fx:value="paddingText" />
+                    </styleClass>
+                </Label>
+                <Label prefHeight="29.0" prefWidth="307.0" stylesheets="@../../../../../pejoProject/src/main/resources/date.css" text="Exes/ Grains de soudure">
+                    <padding>
+                        <Insets left="10.0" />
+                    </padding>
+                    <styleClass>
+                        <String fx:value="borderTable" />
+                        <String fx:value="fontSize" />
+                        <String fx:value="paddingText" />
+                    </styleClass>
+                </Label>
+                <ImageView fitHeight="159.0" fitWidth="331.0" pickOnBounds="true" preserveRatio="true" styleClass="borderTable">
+                    <image>
+                        <Image url="@../../../../../pejoProject/src/main/resources/img/qcl1.png" />
+                    </image>
+                </ImageView>
+                <Label prefHeight="54.0" prefWidth="238.0" stylesheets="@../../../../../pejoProject/src/main/resources/date.css" text="Support COI AV/ARx2">
+                    <styleClass>
+                        <String fx:value="borderTable" />
+                        <String fx:value="fontSize" />
+                        <String fx:value="paddingText" />
+                    </styleClass>
+                </Label>
+                <ComboBox fx:id="comb8" prefHeight="51.0" prefWidth="93.0" promptText="choose" />
+            </children>
+        </FlowPane>
+
+        <FlowPane layoutX="22.0" layoutY="837.0" prefHeight="248.0" prefWidth="330.0" styleClass="borderTable" stylesheets="@../../../../../pejoProject/src/main/resources/date.css">
+            <children>
+                <Label prefHeight="18.0" prefWidth="19.0" stylesheets="@../../../../../pejoProject/src/main/resources/date.css" text="7">
+                    <padding>
+                        <Insets left="5.0" />
+                    </padding>
+                    <styleClass>
+                        <String fx:value="borderTable" />
+                        <String fx:value="fontSize" />
+                        <String fx:value="paddingText" />
+                    </styleClass>
+                </Label>
+                <Label prefHeight="29.0" prefWidth="307.0" stylesheets="@../../../../../pejoProject/src/main/resources/date.css" text="Exes/ Grains de soudure">
+                    <padding>
+                        <Insets left="10.0" />
+                    </padding>
+                    <styleClass>
+                        <String fx:value="borderTable" />
+                        <String fx:value="fontSize" />
+                        <String fx:value="paddingText" />
+                    </styleClass>
+                </Label>
+                <ImageView fitHeight="159.0" fitWidth="331.0" pickOnBounds="true" preserveRatio="true" styleClass="borderTable">
+                    <image>
+                        <Image url="@../../../../../pejoProject/src/main/resources/img/qcl1.png" />
+                    </image>
+                </ImageView>
+                <Label prefHeight="54.0" prefWidth="238.0" stylesheets="@../../../../../pejoProject/src/main/resources/date.css" text="Support COI AV/ARx2">
+                    <styleClass>
+                        <String fx:value="borderTable" />
+                        <String fx:value="fontSize" />
+                        <String fx:value="paddingText" />
+                    </styleClass>
+                </Label>
+                <ComboBox fx:id="comb3" prefHeight="51.0" prefWidth="93.0" promptText="choose" />
+            </children>
+        </FlowPane>
+
+        <FlowPane layoutX="380.0" layoutY="837.0" prefHeight="248.0" prefWidth="330.0" styleClass="borderTable" stylesheets="@../../../../../pejoProject/src/main/resources/date.css">
+            <children>
+                <Label prefHeight="18.0" prefWidth="19.0" stylesheets="@../../../../../pejoProject/src/main/resources/date.css" text="8">
+                    <padding>
+                        <Insets left="5.0" />
+                    </padding>
+                    <styleClass>
+                        <String fx:value="borderTable" />
+                        <String fx:value="fontSize" />
+                        <String fx:value="paddingText" />
+                    </styleClass>
+                </Label>
+                <Label prefHeight="29.0" prefWidth="307.0" stylesheets="@../../../../../pejoProject/src/main/resources/date.css" text="Exes/ Grains de soudure">
+                    <padding>
+                        <Insets left="10.0" />
+                    </padding>
+                    <styleClass>
+                        <String fx:value="borderTable" />
+                        <String fx:value="fontSize" />
+                        <String fx:value="paddingText" />
+                    </styleClass>
+                </Label>
+                <ImageView fitHeight="159.0" fitWidth="331.0" pickOnBounds="true" preserveRatio="true" styleClass="borderTable">
+                    <image>
+                        <Image url="@../../../../../pejoProject/src/main/resources/img/qcl1.png" />
+                    </image>
+                </ImageView>
+                <Label prefHeight="54.0" prefWidth="238.0" stylesheets="@../../../../../pejoProject/src/main/resources/date.css" text="Support COI AV/ARx2">
+                    <styleClass>
+                        <String fx:value="borderTable" />
+                        <String fx:value="fontSize" />
+                        <String fx:value="paddingText" />
+                    </styleClass>
+                </Label>
+                <ComboBox fx:id="comb4" prefHeight="51.0" prefWidth="93.0" promptText="choose" />
+            </children>
+        </FlowPane>
+
+        <FlowPane layoutX="380.0" layoutY="552.0" prefHeight="248.0" prefWidth="330.0" styleClass="borderTable" stylesheets="@../../../../../pejoProject/src/main/resources/date.css">
+            <children>
+                <Label prefHeight="18.0" prefWidth="19.0" stylesheets="@../../../../../pejoProject/src/main/resources/date.css" text="6">
+                    <padding>
+                        <Insets left="5.0" />
+                    </padding>
+                    <styleClass>
+                        <String fx:value="borderTable" />
+                        <String fx:value="fontSize" />
+                        <String fx:value="paddingText" />
+                    </styleClass>
+                </Label>
+                <Label prefHeight="29.0" prefWidth="307.0" stylesheets="@../../../../../pejoProject/src/main/resources/date.css" text="Exes/ Grains de soudure">
+                    <padding>
+                        <Insets left="10.0" />
+                    </padding>
+                    <styleClass>
+                        <String fx:value="borderTable" />
+                        <String fx:value="fontSize" />
+                        <String fx:value="paddingText" />
+                    </styleClass>
+                </Label>
+                <ImageView fitHeight="159.0" fitWidth="331.0" pickOnBounds="true" preserveRatio="true" styleClass="borderTable">
+                    <image>
+                        <Image url="@../../../../../pejoProject/src/main/resources/img/qcl1.png" />
+                    </image>
+                </ImageView>
+                <Label prefHeight="54.0" prefWidth="238.0" stylesheets="@../../../../../pejoProject/src/main/resources/date.css" text="Support COI AV/ARx2">
+                    <styleClass>
+                        <String fx:value="borderTable" />
+                        <String fx:value="fontSize" />
+                        <String fx:value="paddingText" />
+                    </styleClass>
+                </Label>
+                <ComboBox fx:id="comb5" prefHeight="51.0" prefWidth="93.0" promptText="choose" />
+            </children>
+        </FlowPane>
+
+        <FlowPane layoutX="380.0" layoutY="286.0" prefHeight="248.0" prefWidth="330.0" styleClass="borderTable" stylesheets="@../../../../../pejoProject/src/main/resources/date.css">
+            <children>
+                <Label prefHeight="18.0" prefWidth="19.0" stylesheets="@../../../../../pejoProject/src/main/resources/date.css" text="4">
+                    <padding>
+                        <Insets left="5.0" />
+                    </padding>
+                    <styleClass>
+                        <String fx:value="borderTable" />
+                        <String fx:value="fontSize" />
+                        <String fx:value="paddingText" />
+                    </styleClass>
+                </Label>
+                <Label prefHeight="29.0" prefWidth="307.0" stylesheets="@../../../../../pejoProject/src/main/resources/date.css" text="Exes/ Grains de soudure">
+                    <padding>
+                        <Insets left="10.0" />
+                    </padding>
+                    <styleClass>
+                        <String fx:value="borderTable" />
+                        <String fx:value="fontSize" />
+                        <String fx:value="paddingText" />
+                    </styleClass>
+                </Label>
+                <ImageView fitHeight="159.0" fitWidth="331.0" pickOnBounds="true" preserveRatio="true" styleClass="borderTable">
+                    <image>
+                        <Image url="@../../../../../pejoProject/src/main/resources/img/qcl1.png" />
+                    </image>
+                </ImageView>
+                <Label prefHeight="54.0" prefWidth="238.0" stylesheets="@../../../../../pejoProject/src/main/resources/date.css" text="Support COI AV/ARx2">
+                    <styleClass>
+                        <String fx:value="borderTable" />
+                        <String fx:value="fontSize" />
+                        <String fx:value="paddingText" />
+                    </styleClass>
+                </Label>
+                <ComboBox fx:id="comb6" prefHeight="51.0" prefWidth="93.0" promptText="choose" />
+            </children>
+        </FlowPane>
+
+        <FlowPane layoutX="373.0" layoutY="14.0" prefHeight="248.0" prefWidth="330.0" styleClass="borderTable" stylesheets="@../../../../../pejoProject/src/main/resources/date.css">
+            <children>
+                <Label prefHeight="18.0" prefWidth="19.0" stylesheets="@../../../../../pejoProject/src/main/resources/date.css" text="2">
+                    <padding>
+                        <Insets left="5.0" />
+                    </padding>
+                    <styleClass>
+                        <String fx:value="borderTable" />
+                        <String fx:value="fontSize" />
+                        <String fx:value="paddingText" />
+                    </styleClass>
+                </Label>
+                <Label prefHeight="29.0" prefWidth="307.0" stylesheets="@../../../../../pejoProject/src/main/resources/date.css" text="Exes/ Grains de soudure">
+                    <padding>
+                        <Insets left="10.0" />
+                    </padding>
+                    <styleClass>
+                        <String fx:value="borderTable" />
+                        <String fx:value="fontSize" />
+                        <String fx:value="paddingText" />
+                    </styleClass>
+                </Label>
+                <ImageView fitHeight="159.0" fitWidth="331.0" pickOnBounds="true" preserveRatio="true" styleClass="borderTable">
+                    <image>
+                        <Image url="@../../../../../pejoProject/src/main/resources/img/qcl1.png" />
+                    </image>
+                </ImageView>
+                <Label prefHeight="54.0" prefWidth="238.0" stylesheets="@../../../../../pejoProject/src/main/resources/date.css" text="Support COI AV/ARx2">
+                    <styleClass>
+                        <String fx:value="borderTable" />
+                        <String fx:value="fontSize" />
+                        <String fx:value="paddingText" />
+                    </styleClass>
+                </Label>
+                <ComboBox fx:id="comb2" prefHeight="51.0" prefWidth="93.0" promptText="choose" />
+            </children>
+        </FlowPane>
+
+        <FlowPane layoutX="22.0" layoutY="14.0" prefHeight="248.0" prefWidth="330.0" styleClass="borderTable" stylesheets="@../../../../../pejoProject/src/main/resources/date.css">
+            <children>
+                <Label prefHeight="18.0" prefWidth="19.0" stylesheets="@../../../../../pejoProject/src/main/resources/date.css" text="1">
+                    <padding>
+                        <Insets left="5.0" />
+                    </padding>
+                    <styleClass>
+                        <String fx:value="borderTable" />
+                        <String fx:value="fontSize" />
+                        <String fx:value="paddingText" />
+                    </styleClass>
+                </Label>
+                <Label prefHeight="29.0" prefWidth="307.0" stylesheets="@../../../../../pejoProject/src/main/resources/date.css" text="Exes/ Grains de soudure">
+                    <padding>
+                        <Insets left="10.0" />
+                    </padding>
+                    <styleClass>
+                        <String fx:value="borderTable" />
+                        <String fx:value="fontSize" />
+                        <String fx:value="paddingText" />
+                    </styleClass>
+                </Label>
+                <ImageView fitHeight="159.0" fitWidth="331.0" pickOnBounds="true" preserveRatio="true" styleClass="borderTable">
+                    <image>
+                        <Image url="@../../../../../pejoProject/src/main/resources/img/qcl1.png" />
+                    </image>
+                </ImageView>
+                <Label prefHeight="54.0" prefWidth="238.0" stylesheets="@../../../../../pejoProject/src/main/resources/date.css" text="Support COI AV/ARx2">
+                    <styleClass>
+                        <String fx:value="borderTable" />
+                        <String fx:value="fontSize" />
+                        <String fx:value="paddingText" />
+                    </styleClass>
+                </Label>
+                <ComboBox fx:id="comb7" prefHeight="51.0" prefWidth="93.0" promptText="choose" />
+            </children>
+        </FlowPane>
+    </AnchorPane>
+
+</ListView>

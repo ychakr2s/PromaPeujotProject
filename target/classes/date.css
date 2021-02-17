@@ -1,0 +1,18 @@
+.date {
+    /*-fx-border-color: #000;*/
+    /*-fx-padding: 10px 10px 10px 10px;*/
+}
+.suivant {
+   -fx-font-weight: 700;
+}
+.borderTable {
+   -fx-border-color: #000;
+   -fx-border-width: 2px;
+}
+.fontSize {
+   -fx-font-size: 17px;
+}
+.paddingText {
+   -fx-padding: 0 5px 5px;
+   text-align: center;
+}

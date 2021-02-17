@@ -1,0 +1,880 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.text.Font?>
+
+<ListView fixedCellSize="0.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="3287.0" prefWidth="756.0" styleClass="listviewBackground" stylesheets="@../asset/style.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ComposantController">
+    <AnchorPane prefHeight="3300.0" prefWidth="744.0">
+        <Label layoutX="180.0" layoutY="14.0" prefHeight="71.0" prefWidth="396.0" styleClass="backgroundTitle" stylesheets="@../asset/style.css" text="Présence et fixation des composants">
+            <padding>
+                <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+            </padding>
+            <font>
+                <Font size="20" />
+            </font>
+        </Label>
+        <FlowPane layoutX="372.0" layoutY="623.0" prefHeight="237.0" prefWidth="335.0" styleClass="borderTable" stylesheets="@../../../../../pejoProject/src/com/resources/date.css">
+            <children>
+                <Label prefHeight="18.0" prefWidth="19.0" stylesheets="@../../../../../pejoProject/src/com/resources/date.css" text="6">
+                    <padding>
+                        <Insets left="5.0" />
+                    </padding>
+                    <styleClass>
+                        <String fx:value="borderTable" />
+                        <String fx:value="fontSize" />
+                        <String fx:value="paddingText" />
+                    </styleClass>
+                </Label>
+                <Label prefHeight="35.0" prefWidth="307.0" stylesheets="@../asset/style.css" text="Support collage AV AR">
+                    <padding>
+                        <Insets left="10.0" />
+                    </padding>
+                    <styleClass>
+                        <String fx:value="paddingText" />
+                        <String fx:value="borderTable" />
+                    </styleClass>
+                </Label>
+                <ImageView fitHeight="144.0" fitWidth="331.0" pickOnBounds="true" smooth="false">
+                    <image>
+                        <Image url="@../../../../../checkLists/src/com/resources/img/compos/c6.png" />
+                    </image>
+                    <styleClass>
+                        <String fx:value="borderTable" />
+                        <String fx:value="imgSize" />
+                    </styleClass>
+                </ImageView>
+                <ComboBox fx:id="comp6" prefHeight="54.0" prefWidth="93.0" promptText="0" styleClass="compoValue" stylesheets="@../asset/style.css" />
+                <AnchorPane prefHeight="49.0" prefWidth="236.0">
+                    <children>
+                        <Label minHeight="-Infinity" prefHeight="29.0" prefWidth="116.0" styleClass="labelFix" stylesheets="@../asset/style.css" text="35419" />
+                        <Label layoutX="116.0" minHeight="-Infinity" prefHeight="28.0" prefWidth="122.0" styleClass="labelFix" stylesheets="@../asset/style.css" text="Qte" />
+                        <Label layoutX="116.0" layoutY="28.0" minHeight="-Infinity" prefHeight="27.0" prefWidth="122.0" styleClass="labelFix" stylesheets="@../asset/style.css" text="2" />
+                        <Label layoutY="27.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="28.0" prefWidth="116.0" styleClass="labelFix" stylesheets="@../asset/style.css" text="1005" />
+                    </children>
+                </AnchorPane>
+            </children>
+        </FlowPane>
+        <FlowPane layoutX="372.0" layoutY="100.0" prefHeight="237.0" prefWidth="335.0" styleClass="borderTable" stylesheets="@../../../../../pejoProject/src/com/resources/date.css">
+            <children>
+                <Label prefHeight="18.0" prefWidth="19.0" stylesheets="@../../../../../pejoProject/src/com/resources/date.css" text="2">
+                    <padding>
+                        <Insets left="5.0" />
+                    </padding>
+                    <styleClass>
+                        <String fx:value="borderTable" />
+                        <String fx:value="fontSize" />
+                        <String fx:value="paddingText" />
+                    </styleClass>
+                </Label>
+                <Label prefHeight="35.0" prefWidth="307.0" stylesheets="@../asset/style.css" text="Anneau de remorquage">
+                    <padding>
+                        <Insets left="10.0" />
+                    </padding>
+                    <styleClass>
+                        <String fx:value="paddingText" />
+                        <String fx:value="borderTable" />
+                    </styleClass>
+                </Label>
+                <ImageView fitHeight="144.0" fitWidth="331.0" pickOnBounds="true" smooth="false" styleClass="borderTable">
+                    <image>
+                        <Image url="@../../../../../checkLists/src/com/resources/img/compos/c2.png" />
+                    </image>
+                </ImageView>
+                <ComboBox fx:id="comp2" prefHeight="54.0" prefWidth="93.0" promptText="0" styleClass="compoValue" stylesheets="@../asset/style.css" />
+                <AnchorPane prefHeight="49.0" prefWidth="236.0">
+                    <children>
+                        <Label minHeight="-Infinity" prefHeight="29.0" prefWidth="116.0" styleClass="labelFix" stylesheets="@../asset/style.css" text="35592" />
+                        <Label layoutX="116.0" minHeight="-Infinity" prefHeight="28.0" prefWidth="122.0" styleClass="labelFix" stylesheets="@../asset/style.css" text="Qte" />
+                        <Label layoutX="116.0" layoutY="28.0" minHeight="-Infinity" prefHeight="27.0" prefWidth="122.0" styleClass="labelFix" stylesheets="@../asset/style.css" text="1" />
+                        <Label layoutY="27.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="28.0" prefWidth="116.0" styleClass="labelFix" stylesheets="@../asset/style.css" text="1118" />
+                    </children>
+                </AnchorPane>
+            </children>
+        </FlowPane>
+        <FlowPane layoutX="372.0" layoutY="360.0" prefHeight="237.0" prefWidth="335.0" styleClass="borderTable" stylesheets="@../../../../../pejoProject/src/com/resources/date.css">
+            <children>
+                <Label prefHeight="18.0" prefWidth="19.0" stylesheets="@../../../../../pejoProject/src/com/resources/date.css" text="4">
+                    <padding>
+                        <Insets left="5.0" />
+                    </padding>
+                    <styleClass>
+                        <String fx:value="borderTable" />
+                        <String fx:value="fontSize" />
+                        <String fx:value="paddingText" />
+                    </styleClass>
+                </Label>
+                <Label prefHeight="35.0" prefWidth="307.0" stylesheets="@../asset/style.css" text="Equerre support PDR -AV">
+                    <padding>
+                        <Insets left="10.0" />
+                    </padding>
+                    <styleClass>
+                        <String fx:value="paddingText" />
+                        <String fx:value="borderTable" />
+                    </styleClass>
+                </Label>
+                <ImageView fitHeight="144.0" fitWidth="331.0" pickOnBounds="true" smooth="false">
+                    <image>
+                        <Image url="@../../../../../checkLists/src/com/resources/img/compos/c4.png" />
+                    </image>
+                    <styleClass>
+                        <String fx:value="borderTable" />
+                        <String fx:value="imgSize" />
+                    </styleClass>
+                </ImageView>
+                <ComboBox fx:id="comp4" prefHeight="54.0" prefWidth="93.0" promptText="0" styleClass="compoValue" stylesheets="@../asset/style.css" />
+                <AnchorPane prefHeight="49.0" prefWidth="236.0">
+                    <children>
+                        <Label minHeight="-Infinity" prefHeight="29.0" prefWidth="116.0" styleClass="labelFix" stylesheets="@../asset/style.css" text="35592" />
+                        <Label layoutX="116.0" minHeight="-Infinity" prefHeight="28.0" prefWidth="122.0" styleClass="labelFix" stylesheets="@../asset/style.css" text="Qte" />
+                        <Label layoutX="116.0" layoutY="28.0" minHeight="-Infinity" prefHeight="27.0" prefWidth="122.0" styleClass="labelFix" stylesheets="@../asset/style.css" text="1" />
+                        <Label layoutY="27.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="28.0" prefWidth="116.0" styleClass="labelFix" stylesheets="@../asset/style.css" text="1118" />
+                    </children>
+                </AnchorPane>
+            </children>
+        </FlowPane>
+        <FlowPane layoutX="372.0" layoutY="890.0" prefHeight="237.0" prefWidth="335.0" styleClass="borderTable" stylesheets="@../../../../../pejoProject/src/com/resources/date.css">
+            <children>
+                <Label prefHeight="18.0" prefWidth="19.0" stylesheets="@../../../../../pejoProject/src/com/resources/date.css" text="8">
+                    <padding>
+                        <Insets left="5.0" />
+                    </padding>
+                    <styleClass>
+                        <String fx:value="borderTable" />
+                        <String fx:value="fontSize" />
+                        <String fx:value="paddingText" />
+                    </styleClass>
+                </Label>
+                <Label prefHeight="35.0" prefWidth="307.0" stylesheets="@../asset/style.css" text="TPB Support device">
+                    <padding>
+                        <Insets left="10.0" />
+                    </padding>
+                    <styleClass>
+                        <String fx:value="paddingText" />
+                        <String fx:value="borderTable" />
+                    </styleClass>
+                </Label>
+                <ImageView fitHeight="144.0" fitWidth="331.0" pickOnBounds="true" smooth="false" styleClass="borderTable">
+                    <image>
+                        <Image url="@../../../../../checkLists/src/com/resources/img/compos/c8.png" />
+                    </image>
+                </ImageView>
+                <ComboBox fx:id="comp8" prefHeight="54.0" prefWidth="93.0" promptText="0" styleClass="compoValue" stylesheets="@../asset/style.css" />
+                <AnchorPane prefHeight="49.0" prefWidth="236.0">
+                    <children>
+                        <Label minHeight="-Infinity" prefHeight="29.0" prefWidth="116.0" styleClass="labelFix" stylesheets="@../asset/style.css" text="35450/49" />
+                        <Label layoutX="116.0" minHeight="-Infinity" prefHeight="28.0" prefWidth="122.0" styleClass="labelFix" stylesheets="@../asset/style.css" text="Qte" />
+                        <Label layoutX="116.0" layoutY="28.0" minHeight="-Infinity" prefHeight="27.0" prefWidth="122.0" styleClass="labelFix" stylesheets="@../asset/style.css" text="1" />
+                        <Label layoutY="27.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="28.0" prefWidth="116.0" styleClass="labelFix" stylesheets="@../asset/style.css" text="1135/1133" />
+                    </children>
+                </AnchorPane>
+            </children>
+        </FlowPane>
+        <FlowPane layoutX="22.0" layoutY="890.0" prefHeight="237.0" prefWidth="335.0" styleClass="borderTable" stylesheets="@../../../../../pejoProject/src/com/resources/date.css">
+            <children>
+                <Label prefHeight="18.0" prefWidth="19.0" stylesheets="@../../../../../pejoProject/src/com/resources/date.css" text="7">
+                    <padding>
+                        <Insets left="5.0" />
+                    </padding>
+                    <styleClass>
+                        <String fx:value="borderTable" />
+                        <String fx:value="fontSize" />
+                        <String fx:value="paddingText" />
+                    </styleClass>
+                </Label>
+                <Label prefHeight="35.0" prefWidth="307.0" stylesheets="@../asset/style.css" text="Soub Pontet fixation plancher">
+                    <padding>
+                        <Insets left="10.0" />
+                    </padding>
+                    <styleClass>
+                        <String fx:value="paddingText" />
+                        <String fx:value="borderTable" />
+                    </styleClass>
+                </Label>
+                <ImageView fitHeight="144.0" fitWidth="331.0" pickOnBounds="true" smooth="false" styleClass="borderTable">
+                    <image>
+                        <Image url="@../../../../../checkLists/src/com/resources/img/compos/c7.png" />
+                    </image>
+                </ImageView>
+                <ComboBox fx:id="comp7" prefHeight="54.0" prefWidth="93.0" promptText="0" styleClass="compoValue" stylesheets="@../asset/style.css" />
+                <AnchorPane prefHeight="49.0" prefWidth="236.0">
+                    <children>
+                        <Label minHeight="-Infinity" prefHeight="29.0" prefWidth="116.0" styleClass="labelFix" stylesheets="@../asset/style.css" text="35424" />
+                        <Label layoutX="116.0" minHeight="-Infinity" prefHeight="28.0" prefWidth="122.0" styleClass="labelFix" stylesheets="@../asset/style.css" text="Qte" />
+                        <Label layoutX="116.0" layoutY="28.0" minHeight="-Infinity" prefHeight="27.0" prefWidth="122.0" styleClass="labelFix" stylesheets="@../asset/style.css" text="2" />
+                        <Label layoutY="27.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="28.0" prefWidth="116.0" styleClass="labelFix" stylesheets="@../asset/style.css" text="1079" />
+                    </children>
+                </AnchorPane>
+            </children>
+        </FlowPane>
+        <FlowPane layoutX="22.0" layoutY="100.0" prefHeight="237.0" prefWidth="335.0" styleClass="borderTable" stylesheets="@../../../../../pejoProject/src/com/resources/date.css">
+            <children>
+                <Label prefHeight="18.0" prefWidth="19.0" stylesheets="@../../../../../pejoProject/src/com/resources/date.css" text="1">
+                    <padding>
+                        <Insets left="5.0" />
+                    </padding>
+                    <styleClass>
+                        <String fx:value="borderTable" />
+                        <String fx:value="fontSize" />
+                        <String fx:value="paddingText" />
+                    </styleClass>
+                </Label>
+                <Label prefHeight="35.0" prefWidth="307.0" stylesheets="@../asset/style.css" text="Vérifier la gravure chassis + Rack batterie">
+                    <padding>
+                        <Insets left="10.0" />
+                    </padding>
+                    <styleClass>
+                        <String fx:value="paddingText" />
+                        <String fx:value="borderTable" />
+                    </styleClass>
+                </Label>
+                <ImageView fitHeight="144.0" fitWidth="331.0" pickOnBounds="true" smooth="false" styleClass="borderTable">
+                    <image>
+                        <Image url="@../../../../../checkLists/src/com/resources/img/compos/c1.png" />
+                    </image>
+                </ImageView>
+                <ComboBox fx:id="comp1" prefHeight="54.0" prefWidth="93.0" promptText="0" styleClass="compoValue" stylesheets="@../asset/style.css" />
+                <AnchorPane prefHeight="49.0" prefWidth="236.0">
+                    <children>
+                        <Label minHeight="-Infinity" prefHeight="29.0" prefWidth="116.0" styleClass="labelFix" stylesheets="@../asset/style.css" text="35592" />
+                        <Label layoutX="116.0" minHeight="-Infinity" prefHeight="28.0" prefWidth="122.0" styleClass="labelFix" stylesheets="@../asset/style.css" text="Qte" />
+                        <Label layoutX="116.0" layoutY="28.0" minHeight="-Infinity" prefHeight="27.0" prefWidth="122.0" styleClass="labelFix" stylesheets="@../asset/style.css" text="1" />
+                        <Label layoutY="27.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="28.0" prefWidth="116.0" styleClass="labelFix" stylesheets="@../asset/style.css" text="1118" />
+                    </children>
+                </AnchorPane>
+            </children>
+        </FlowPane>
+        <FlowPane layoutX="372.0" layoutY="1150.0" prefHeight="224.0" prefWidth="317.0" styleClass="borderTable" stylesheets="@../../../../../pejoProject/src/com/resources/date.css">
+            <children>
+                <Label prefHeight="35.0" prefWidth="34.0" stylesheets="@../../../../../pejoProject/src/com/resources/date.css" text="10">
+                    <padding>
+                        <Insets left="5.0" />
+                    </padding>
+                    <styleClass>
+                        <String fx:value="borderTable" />
+                        <String fx:value="fontSize" />
+                        <String fx:value="paddingText" />
+                    </styleClass>
+                </Label>
+                <Label prefHeight="35.0" prefWidth="297.0" stylesheets="@../asset/style.css" text="cache AV ">
+                    <padding>
+                        <Insets left="10.0" />
+                    </padding>
+                    <styleClass>
+                        <String fx:value="paddingText" />
+                        <String fx:value="borderTable" />
+                    </styleClass>
+                </Label>
+                <ImageView fitHeight="173.0" fitWidth="331.0" pickOnBounds="true" smooth="false" styleClass="borderTable">
+                    <image>
+                        <Image url="@../../../../../checkLists/src/com/resources/img/compos/c10.png" />
+                    </image>
+                </ImageView>
+                <ComboBox fx:id="comp10" prefHeight="54.0" prefWidth="93.0" promptText="0" styleClass="compoValue" stylesheets="@../asset/style.css" />
+                <AnchorPane prefHeight="49.0" prefWidth="236.0">
+                    <children>
+                        <Label minHeight="-Infinity" prefHeight="29.0" prefWidth="116.0" styleClass="labelFix" stylesheets="@../asset/style.css" text="35404" />
+                        <Label layoutX="116.0" minHeight="-Infinity" prefHeight="28.0" prefWidth="122.0" styleClass="labelFix" stylesheets="@../asset/style.css" text="Qte" />
+                        <Label layoutX="116.0" layoutY="28.0" minHeight="-Infinity" prefHeight="27.0" prefWidth="122.0" styleClass="labelFix" stylesheets="@../asset/style.css" text="1" />
+                        <Label layoutY="27.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="28.0" prefWidth="116.0" styleClass="labelFix" stylesheets="@../asset/style.css" text="1105" />
+                    </children>
+                </AnchorPane>
+            </children>
+        </FlowPane>
+        <FlowPane layoutX="22.0" layoutY="360.0" prefHeight="237.0" prefWidth="335.0" styleClass="borderTable" stylesheets="@../../../../../pejoProject/src/com/resources/date.css">
+            <children>
+                <Label prefHeight="18.0" prefWidth="19.0" stylesheets="@../../../../../pejoProject/src/com/resources/date.css" text="3">
+                    <padding>
+                        <Insets left="5.0" />
+                    </padding>
+                    <styleClass>
+                        <String fx:value="borderTable" />
+                        <String fx:value="fontSize" />
+                        <String fx:value="paddingText" />
+                    </styleClass>
+                </Label>
+                <Label prefHeight="35.0" prefWidth="307.0" stylesheets="@../asset/style.css" text="Support reservoir liq. de frein -AV">
+                    <padding>
+                        <Insets left="10.0" />
+                    </padding>
+                    <styleClass>
+                        <String fx:value="paddingText" />
+                        <String fx:value="borderTable" />
+                    </styleClass>
+                </Label>
+                <ImageView fitHeight="144.0" fitWidth="331.0" pickOnBounds="true" smooth="false" styleClass="borderTable">
+                    <image>
+                        <Image url="@../../../../../checkLists/src/com/resources/img/compos/c3.png" />
+                    </image>
+                </ImageView>
+                <ComboBox fx:id="comp3" prefHeight="54.0" prefWidth="93.0" promptText="0" styleClass="compoValue" stylesheets="@../asset/style.css" />
+                <AnchorPane prefHeight="49.0" prefWidth="236.0">
+                    <children>
+                        <Label minHeight="-Infinity" prefHeight="29.0" prefWidth="116.0" styleClass="labelFix" stylesheets="@../asset/style.css" text="35592" />
+                        <Label layoutX="116.0" minHeight="-Infinity" prefHeight="28.0" prefWidth="122.0" styleClass="labelFix" stylesheets="@../asset/style.css" text="Qte" />
+                        <Label layoutX="116.0" layoutY="28.0" minHeight="-Infinity" prefHeight="27.0" prefWidth="122.0" styleClass="labelFix" stylesheets="@../asset/style.css" text="1" />
+                        <Label layoutY="27.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="28.0" prefWidth="116.0" styleClass="labelFix" stylesheets="@../asset/style.css" text="1118" />
+                    </children>
+                </AnchorPane>
+            </children>
+        </FlowPane>
+        <FlowPane layoutX="22.0" layoutY="1433.0" prefHeight="224.0" prefWidth="317.0" styleClass="borderTable" stylesheets="@../../../../../pejoProject/src/com/resources/date.css">
+            <children>
+                <Label prefHeight="35.0" prefWidth="33.0" stylesheets="@../../../../../pejoProject/src/com/resources/date.css" text="11">
+                    <padding>
+                        <Insets left="5.0" />
+                    </padding>
+                    <styleClass>
+                        <String fx:value="borderTable" />
+                        <String fx:value="fontSize" />
+                        <String fx:value="paddingText" />
+                    </styleClass>
+                </Label>
+                <Label prefHeight="35.0" prefWidth="298.0" stylesheets="@../asset/style.css" text="Soub Appui plancher INT">
+                    <padding>
+                        <Insets left="10.0" />
+                    </padding>
+                    <styleClass>
+                        <String fx:value="paddingText" />
+                        <String fx:value="borderTable" />
+                    </styleClass>
+                </Label>
+                <ImageView fitHeight="144.0" fitWidth="331.0" pickOnBounds="true" smooth="false" styleClass="borderTable">
+                    <image>
+                        <Image url="@../../../../../checkLists/src/com/resources/img/compos/c11.png" />
+                    </image>
+                </ImageView>
+                <ComboBox fx:id="comp11" prefHeight="54.0" prefWidth="93.0" promptText="0" styleClass="compoValue" stylesheets="@../asset/style.css" />
+                <AnchorPane prefHeight="49.0" prefWidth="236.0">
+                    <children>
+                        <Label minHeight="-Infinity" prefHeight="29.0" prefWidth="116.0" styleClass="labelFix" stylesheets="@../asset/style.css" text="35442" />
+                        <Label layoutX="116.0" minHeight="-Infinity" prefHeight="28.0" prefWidth="122.0" styleClass="labelFix" stylesheets="@../asset/style.css" text="Qte" />
+                        <Label layoutX="116.0" layoutY="28.0" minHeight="-Infinity" prefHeight="27.0" prefWidth="122.0" styleClass="labelFix" stylesheets="@../asset/style.css" text="1" />
+                        <Label layoutY="27.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="28.0" prefWidth="116.0" styleClass="labelFix" stylesheets="@../asset/style.css" text="1123" />
+                    </children>
+                </AnchorPane>
+            </children>
+        </FlowPane>
+        <FlowPane layoutX="372.0" layoutY="1433.0" prefHeight="224.0" prefWidth="317.0" styleClass="borderTable" stylesheets="@../../../../../pejoProject/src/com/resources/date.css">
+            <children>
+                <Label prefHeight="35.0" prefWidth="33.0" stylesheets="@../../../../../pejoProject/src/com/resources/date.css" text="12">
+                    <padding>
+                        <Insets left="5.0" />
+                    </padding>
+                    <styleClass>
+                        <String fx:value="borderTable" />
+                        <String fx:value="fontSize" />
+                        <String fx:value="paddingText" />
+                    </styleClass>
+                </Label>
+                <Label prefHeight="35.0" prefWidth="298.0" stylesheets="@../asset/style.css" text="Soub Appui plancher ext">
+                    <padding>
+                        <Insets left="10.0" />
+                    </padding>
+                    <styleClass>
+                        <String fx:value="paddingText" />
+                        <String fx:value="borderTable" />
+                    </styleClass>
+                </Label>
+                <ImageView fitHeight="144.0" fitWidth="331.0" pickOnBounds="true" smooth="false" styleClass="borderTable">
+                    <image>
+                        <Image url="@../../../../../checkLists/src/com/resources/img/compos/c12.png" />
+                    </image>
+                </ImageView>
+                <ComboBox fx:id="comp12" prefHeight="54.0" prefWidth="93.0" promptText="0" styleClass="compoValue" stylesheets="@../asset/style.css" />
+                <AnchorPane prefHeight="49.0" prefWidth="236.0">
+                    <children>
+                        <Label minHeight="-Infinity" prefHeight="29.0" prefWidth="116.0" styleClass="labelFix" stylesheets="@../asset/style.css" text="35443" />
+                        <Label layoutX="116.0" minHeight="-Infinity" prefHeight="28.0" prefWidth="122.0" styleClass="labelFix" stylesheets="@../asset/style.css" text="Qte" />
+                        <Label layoutX="116.0" layoutY="28.0" minHeight="-Infinity" prefHeight="27.0" prefWidth="122.0" styleClass="labelFix" stylesheets="@../asset/style.css" text="1" />
+                        <Label layoutY="27.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="28.0" prefWidth="116.0" styleClass="labelFix" stylesheets="@../asset/style.css" text="1124" />
+                    </children>
+                </AnchorPane>
+            </children>
+        </FlowPane>
+        <FlowPane layoutX="372.0" layoutY="1698.0" prefHeight="224.0" prefWidth="317.0" styleClass="borderTable" stylesheets="@../../../../../pejoProject/src/com/resources/date.css">
+            <children>
+                <Label prefHeight="18.0" prefWidth="33.0" stylesheets="@../../../../../pejoProject/src/com/resources/date.css" text="14">
+                    <padding>
+                        <Insets left="5.0" />
+                    </padding>
+                    <styleClass>
+                        <String fx:value="borderTable" />
+                        <String fx:value="fontSize" />
+                        <String fx:value="paddingText" />
+                    </styleClass>
+                </Label>
+                <Label prefHeight="35.0" prefWidth="298.0" stylesheets="@../asset/style.css" text="Vérifier la gravure chassis + Rack batterie">
+                    <padding>
+                        <Insets left="10.0" />
+                    </padding>
+                    <styleClass>
+                        <String fx:value="paddingText" />
+                        <String fx:value="borderTable" />
+                    </styleClass>
+                </Label>
+                <ImageView fitHeight="144.0" fitWidth="331.0" pickOnBounds="true" smooth="false" styleClass="borderTable">
+                    <image>
+                        <Image url="@../../../../../checkLists/src/com/resources/img/compos/c14.png" />
+                    </image>
+                </ImageView>
+                <ComboBox fx:id="comp14" prefHeight="54.0" prefWidth="93.0" promptText="0" styleClass="compoValue" stylesheets="@../asset/style.css" />
+                <AnchorPane prefHeight="49.0" prefWidth="236.0">
+                    <children>
+                        <Label minHeight="-Infinity" prefHeight="29.0" prefWidth="116.0" styleClass="labelFix" stylesheets="@../asset/style.css" text="35423" />
+                        <Label layoutX="116.0" minHeight="-Infinity" prefHeight="28.0" prefWidth="122.0" styleClass="labelFix" stylesheets="@../asset/style.css" text="Qte" />
+                        <Label layoutX="116.0" layoutY="28.0" minHeight="-Infinity" prefHeight="27.0" prefWidth="122.0" styleClass="labelFix" stylesheets="@../asset/style.css" text="1" />
+                        <Label layoutY="27.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="28.0" prefWidth="116.0" styleClass="labelFix" stylesheets="@../asset/style.css" text="1099" />
+                    </children>
+                </AnchorPane>
+            </children>
+        </FlowPane>
+        <FlowPane layoutX="22.0" layoutY="1698.0" prefHeight="224.0" prefWidth="317.0" styleClass="borderTable" stylesheets="@../../../../../pejoProject/src/com/resources/date.css">
+            <children>
+                <Label prefHeight="18.0" prefWidth="33.0" stylesheets="@../../../../../pejoProject/src/com/resources/date.css" text="13">
+                    <padding>
+                        <Insets left="5.0" />
+                    </padding>
+                    <styleClass>
+                        <String fx:value="borderTable" />
+                        <String fx:value="fontSize" />
+                        <String fx:value="paddingText" />
+                    </styleClass>
+                </Label>
+                <Label prefHeight="35.0" prefWidth="298.0" stylesheets="@../asset/style.css" text="Soub Pontet fixation plancher">
+                    <padding>
+                        <Insets left="10.0" />
+                    </padding>
+                    <styleClass>
+                        <String fx:value="paddingText" />
+                        <String fx:value="borderTable" />
+                    </styleClass>
+                </Label>
+                <ImageView fitHeight="144.0" fitWidth="331.0" pickOnBounds="true" smooth="false" styleClass="borderTable">
+                    <image>
+                        <Image url="@../../../../../checkLists/src/com/resources/img/compos/c13.png" />
+                    </image>
+                </ImageView>
+                <ComboBox fx:id="comp13" prefHeight="54.0" prefWidth="93.0" promptText="0" styleClass="compoValue" stylesheets="@../asset/style.css" />
+                <AnchorPane prefHeight="49.0" prefWidth="236.0">
+                    <children>
+                        <Label minHeight="-Infinity" prefHeight="29.0" prefWidth="116.0" styleClass="labelFix" stylesheets="@../asset/style.css" text="35429" />
+                        <Label layoutX="116.0" minHeight="-Infinity" prefHeight="28.0" prefWidth="122.0" styleClass="labelFix" stylesheets="@../asset/style.css" text="Qte" />
+                        <Label layoutX="116.0" layoutY="28.0" minHeight="-Infinity" prefHeight="27.0" prefWidth="122.0" styleClass="labelFix" stylesheets="@../asset/style.css" text="1" />
+                        <Label layoutY="27.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="28.0" prefWidth="116.0" styleClass="labelFix" stylesheets="@../asset/style.css" text="1099" />
+                    </children>
+                </AnchorPane>
+            </children>
+        </FlowPane>
+        <FlowPane layoutX="372.0" layoutY="1966.0" prefHeight="224.0" prefWidth="317.0" styleClass="borderTable" stylesheets="@../../../../../pejoProject/src/com/resources/date.css">
+            <children>
+                <Label prefHeight="35.0" prefWidth="33.0" stylesheets="@../../../../../pejoProject/src/com/resources/date.css" text="16">
+                    <padding>
+                        <Insets left="5.0" />
+                    </padding>
+                    <styleClass>
+                        <String fx:value="borderTable" />
+                        <String fx:value="fontSize" />
+                        <String fx:value="paddingText" />
+                    </styleClass>
+                </Label>
+                <Label prefHeight="35.0" prefWidth="298.0" stylesheets="@../asset/style.css" text="Support filtre CEM">
+                    <padding>
+                        <Insets left="10.0" />
+                    </padding>
+                    <styleClass>
+                        <String fx:value="paddingText" />
+                        <String fx:value="borderTable" />
+                    </styleClass>
+                </Label>
+                <ImageView fitHeight="144.0" fitWidth="331.0" pickOnBounds="true" smooth="false" styleClass="borderTable">
+                    <image>
+                        <Image url="@../../../../../checkLists/src/com/resources/img/compos/c16.png" />
+                    </image>
+                </ImageView>
+                <ComboBox fx:id="comp16" prefHeight="54.0" prefWidth="93.0" promptText="0" styleClass="compoValue" stylesheets="@../asset/style.css" />
+                <AnchorPane prefHeight="49.0" prefWidth="236.0">
+                    <children>
+                        <Label minHeight="-Infinity" prefHeight="29.0" prefWidth="116.0" styleClass="labelFix" stylesheets="@../asset/style.css" />
+                        <Label layoutX="116.0" minHeight="-Infinity" prefHeight="28.0" prefWidth="122.0" styleClass="labelFix" stylesheets="@../asset/style.css" text="Qte" />
+                        <Label layoutX="116.0" layoutY="28.0" minHeight="-Infinity" prefHeight="27.0" prefWidth="122.0" styleClass="labelFix" stylesheets="@../asset/style.css" text="1" />
+                        <Label layoutY="27.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="28.0" prefWidth="116.0" styleClass="labelFix" stylesheets="@../asset/style.css" />
+                    </children>
+                </AnchorPane>
+            </children>
+        </FlowPane>
+        <FlowPane layoutX="22.0" layoutY="1966.0" prefHeight="224.0" prefWidth="317.0" styleClass="borderTable" stylesheets="@../../../../../pejoProject/src/com/resources/date.css">
+            <children>
+                <Label prefHeight="35.0" prefWidth="33.0" stylesheets="@../../../../../pejoProject/src/com/resources/date.css" text="15">
+                    <padding>
+                        <Insets left="5.0" />
+                    </padding>
+                    <styleClass>
+                        <String fx:value="borderTable" />
+                        <String fx:value="fontSize" />
+                        <String fx:value="paddingText" />
+                    </styleClass>
+                </Label>
+                <Label prefHeight="35.0" prefWidth="298.0" stylesheets="@../asset/style.css" text="Renfort arch ARG avec ecrou /ARD">
+                    <padding>
+                        <Insets left="10.0" />
+                    </padding>
+                    <styleClass>
+                        <String fx:value="paddingText" />
+                        <String fx:value="borderTable" />
+                    </styleClass>
+                </Label>
+                <ImageView fitHeight="144.0" fitWidth="331.0" pickOnBounds="true" smooth="false" styleClass="borderTable">
+                    <image>
+                        <Image url="@../../../../../checkLists/src/com/resources/img/compos/c15.png" />
+                    </image>
+                </ImageView>
+                <ComboBox fx:id="comp15" prefHeight="54.0" prefWidth="93.0" promptText="0" styleClass="compoValue" stylesheets="@../asset/style.css" />
+                <AnchorPane prefHeight="49.0" prefWidth="236.0">
+                    <children>
+                        <Label minHeight="-Infinity" prefHeight="29.0" prefWidth="116.0" styleClass="labelFix" stylesheets="@../asset/style.css" />
+                        <Label layoutX="116.0" minHeight="-Infinity" prefHeight="28.0" prefWidth="122.0" styleClass="labelFix" stylesheets="@../asset/style.css" text="Qte" />
+                        <Label layoutX="116.0" layoutY="28.0" minHeight="-Infinity" prefHeight="27.0" prefWidth="122.0" styleClass="labelFix" stylesheets="@../asset/style.css" text="2" />
+                        <Label layoutY="27.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="28.0" prefWidth="116.0" styleClass="labelFix" stylesheets="@../asset/style.css" text="1018" />
+                    </children>
+                </AnchorPane>
+            </children>
+        </FlowPane>
+        <FlowPane layoutX="22.0" layoutY="2240.0" prefHeight="224.0" prefWidth="317.0" styleClass="borderTable" stylesheets="@../../../../../pejoProject/src/com/resources/date.css">
+            <children>
+                <Label prefHeight="35.0" prefWidth="33.0" stylesheets="@../../../../../pejoProject/src/com/resources/date.css" text="17">
+                    <padding>
+                        <Insets left="5.0" />
+                    </padding>
+                    <styleClass>
+                        <String fx:value="borderTable" />
+                        <String fx:value="fontSize" />
+                        <String fx:value="paddingText" />
+                    </styleClass>
+                </Label>
+                <Label prefHeight="35.0" prefWidth="298.0" stylesheets="@../asset/style.css" text="Support VCU -AR ">
+                    <padding>
+                        <Insets left="10.0" />
+                    </padding>
+                    <styleClass>
+                        <String fx:value="paddingText" />
+                        <String fx:value="borderTable" />
+                    </styleClass>
+                </Label>
+                <ImageView fitHeight="144.0" fitWidth="331.0" pickOnBounds="true" smooth="false" styleClass="borderTable">
+                    <image>
+                        <Image url="@../../../../../checkLists/src/com/resources/img/compos/c17.png" />
+                    </image>
+                </ImageView>
+                <ComboBox fx:id="comp17" prefHeight="54.0" prefWidth="93.0" promptText="0" styleClass="compoValue" stylesheets="@../asset/style.css" />
+                <AnchorPane prefHeight="49.0" prefWidth="236.0">
+                    <children>
+                        <Label minHeight="-Infinity" prefHeight="29.0" prefWidth="116.0" styleClass="labelFix" stylesheets="@../asset/style.css" text="35409" />
+                        <Label layoutX="116.0" minHeight="-Infinity" prefHeight="28.0" prefWidth="122.0" styleClass="labelFix" stylesheets="@../asset/style.css" text="Qte" />
+                        <Label layoutX="116.0" layoutY="28.0" minHeight="-Infinity" prefHeight="27.0" prefWidth="122.0" styleClass="labelFix" stylesheets="@../asset/style.css" text="2" />
+                        <Label layoutY="27.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="28.0" prefWidth="116.0" styleClass="labelFix" stylesheets="@../asset/style.css" text="1041" />
+                    </children>
+                </AnchorPane>
+            </children>
+        </FlowPane>
+        <FlowPane layoutX="372.0" layoutY="2240.0" prefHeight="224.0" prefWidth="317.0" styleClass="borderTable" stylesheets="@../../../../../pejoProject/src/com/resources/date.css">
+            <children>
+                <Label prefHeight="18.0" prefWidth="33.0" stylesheets="@../../../../../pejoProject/src/com/resources/date.css" text="18">
+                    <padding>
+                        <Insets left="5.0" />
+                    </padding>
+                    <styleClass>
+                        <String fx:value="borderTable" />
+                        <String fx:value="fontSize" />
+                        <String fx:value="paddingText" />
+                    </styleClass>
+                </Label>
+                <Label prefHeight="35.0" prefWidth="298.0" stylesheets="@../asset/style.css" text="support BFR -AR ">
+                    <padding>
+                        <Insets left="10.0" />
+                    </padding>
+                    <styleClass>
+                        <String fx:value="paddingText" />
+                        <String fx:value="borderTable" />
+                    </styleClass>
+                </Label>
+                <ImageView fitHeight="144.0" fitWidth="331.0" pickOnBounds="true" smooth="false" styleClass="borderTable">
+                    <image>
+                        <Image url="@../../../../../checkLists/src/com/resources/img/compos/c18.png" />
+                    </image>
+                </ImageView>
+                <ComboBox fx:id="comp18" prefHeight="54.0" prefWidth="93.0" promptText="0" styleClass="compoValue" stylesheets="@../asset/style.css" />
+                <AnchorPane prefHeight="49.0" prefWidth="236.0">
+                    <children>
+                        <Label minHeight="-Infinity" prefHeight="29.0" prefWidth="116.0" styleClass="labelFix" stylesheets="@../asset/style.css" text="35408" />
+                        <Label layoutX="116.0" minHeight="-Infinity" prefHeight="28.0" prefWidth="122.0" styleClass="labelFix" stylesheets="@../asset/style.css" text="Qte" />
+                        <Label layoutX="116.0" layoutY="28.0" minHeight="-Infinity" prefHeight="27.0" prefWidth="122.0" styleClass="labelFix" stylesheets="@../asset/style.css" text="2" />
+                        <Label layoutY="27.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="28.0" prefWidth="116.0" styleClass="labelFix" stylesheets="@../asset/style.css" text="1040" />
+                    </children>
+                </AnchorPane>
+            </children>
+        </FlowPane>
+        <FlowPane layoutX="22.0" layoutY="2513.0" prefHeight="224.0" prefWidth="317.0" styleClass="borderTable" stylesheets="@../../../../../pejoProject/src/com/resources/date.css">
+            <children>
+                <Label prefHeight="18.0" prefWidth="33.0" stylesheets="@../../../../../pejoProject/src/com/resources/date.css" text="19">
+                    <padding>
+                        <Insets left="5.0" />
+                    </padding>
+                    <styleClass>
+                        <String fx:value="borderTable" />
+                        <String fx:value="fontSize" />
+                        <String fx:value="paddingText" />
+                    </styleClass>
+                </Label>
+                <Label prefHeight="35.0" prefWidth="298.0" stylesheets="@../asset/style.css" text="Bloc AR patte fixation Faisceeaux">
+                    <padding>
+                        <Insets left="10.0" />
+                    </padding>
+                    <styleClass>
+                        <String fx:value="paddingText" />
+                        <String fx:value="borderTable" />
+                    </styleClass>
+                </Label>
+                <ImageView fitHeight="144.0" fitWidth="331.0" pickOnBounds="true" smooth="false" styleClass="borderTable">
+                    <image>
+                        <Image url="@../../../../../checkLists/src/com/resources/img/compos/c19.png" />
+                    </image>
+                </ImageView>
+                <ComboBox fx:id="comp19" prefHeight="54.0" prefWidth="93.0" promptText="0" styleClass="compoValue" stylesheets="@../asset/style.css" />
+                <AnchorPane prefHeight="49.0" prefWidth="236.0">
+                    <children>
+                        <Label minHeight="-Infinity" prefHeight="29.0" prefWidth="116.0" styleClass="labelFix" stylesheets="@../asset/style.css" text="35414" />
+                        <Label layoutX="116.0" minHeight="-Infinity" prefHeight="28.0" prefWidth="122.0" styleClass="labelFix" stylesheets="@../asset/style.css" text="Qte" />
+                        <Label layoutX="116.0" layoutY="28.0" minHeight="-Infinity" prefHeight="27.0" prefWidth="122.0" styleClass="labelFix" stylesheets="@../asset/style.css" text="1" />
+                        <Label layoutY="27.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="28.0" prefWidth="116.0" styleClass="labelFix" stylesheets="@../asset/style.css" text="1063" />
+                    </children>
+                </AnchorPane>
+            </children>
+        </FlowPane>
+        <FlowPane layoutX="372.0" layoutY="2513.0" prefHeight="224.0" prefWidth="317.0" styleClass="borderTable" stylesheets="@../../../../../pejoProject/src/com/resources/date.css">
+            <children>
+                <Label prefHeight="18.0" prefWidth="33.0" stylesheets="@../../../../../pejoProject/src/com/resources/date.css" text="20">
+                    <padding>
+                        <Insets left="5.0" />
+                    </padding>
+                    <styleClass>
+                        <String fx:value="borderTable" />
+                        <String fx:value="fontSize" />
+                        <String fx:value="paddingText" />
+                    </styleClass>
+                </Label>
+                <Label prefHeight="35.0" prefWidth="298.0" stylesheets="@../asset/style.css" text="Coupelle démontage">
+                    <padding>
+                        <Insets left="10.0" />
+                    </padding>
+                    <styleClass>
+                        <String fx:value="paddingText" />
+                        <String fx:value="borderTable" />
+                    </styleClass>
+                </Label>
+                <ImageView fitHeight="144.0" fitWidth="331.0" pickOnBounds="true" smooth="false" styleClass="borderTable">
+                    <image>
+                        <Image url="@../../../../../checkLists/src/com/resources/img/compos/c20.png" />
+                    </image>
+                </ImageView>
+                <ComboBox fx:id="comp20" prefHeight="54.0" prefWidth="93.0" promptText="0" styleClass="compoValue" stylesheets="@../asset/style.css" />
+                <AnchorPane prefHeight="49.0" prefWidth="236.0">
+                    <children>
+                        <Label minHeight="-Infinity" prefHeight="29.0" prefWidth="116.0" styleClass="labelFix" stylesheets="@../asset/style.css" text="35430" />
+                        <Label layoutX="116.0" minHeight="-Infinity" prefHeight="28.0" prefWidth="122.0" styleClass="labelFix" stylesheets="@../asset/style.css" text="Qte" />
+                        <Label layoutX="116.0" layoutY="28.0" minHeight="-Infinity" prefHeight="27.0" prefWidth="122.0" styleClass="labelFix" stylesheets="@../asset/style.css" text="2" />
+                        <Label layoutY="27.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="28.0" prefWidth="116.0" styleClass="labelFix" stylesheets="@../asset/style.css" text="1100" />
+                    </children>
+                </AnchorPane>
+            </children>
+        </FlowPane>
+        <FlowPane layoutX="22.0" layoutY="2783.0" prefHeight="224.0" prefWidth="317.0" styleClass="borderTable" stylesheets="@../../../../../pejoProject/src/com/resources/date.css">
+            <children>
+                <Label prefHeight="18.0" prefWidth="33.0" stylesheets="@../../../../../pejoProject/src/com/resources/date.css" text="21">
+                    <padding>
+                        <Insets left="5.0" />
+                    </padding>
+                    <styleClass>
+                        <String fx:value="borderTable" />
+                        <String fx:value="fontSize" />
+                        <String fx:value="paddingText" />
+                    </styleClass>
+                </Label>
+                <Label prefHeight="35.0" prefWidth="298.0" stylesheets="@../asset/style.css" text="6 Pattes fixation + 7 VIS">
+                    <padding>
+                        <Insets left="10.0" />
+                    </padding>
+                    <styleClass>
+                        <String fx:value="paddingText" />
+                        <String fx:value="borderTable" />
+                    </styleClass>
+                </Label>
+                <ImageView fitHeight="144.0" fitWidth="331.0" pickOnBounds="true" smooth="false" styleClass="borderTable">
+                    <image>
+                        <Image url="@../../../../../checkLists/src/com/resources/img/compos/c21.png" />
+                    </image>
+                </ImageView>
+                <ComboBox fx:id="comp21" prefHeight="54.0" prefWidth="93.0" promptText="0" styleClass="compoValue" stylesheets="@../asset/style.css" />
+                <AnchorPane prefHeight="49.0" prefWidth="236.0">
+                    <children>
+                        <Label minHeight="-Infinity" prefHeight="29.0" prefWidth="116.0" styleClass="labelFix" stylesheets="@../asset/style.css" text="35695" />
+                        <Label layoutX="116.0" minHeight="-Infinity" prefHeight="28.0" prefWidth="122.0" styleClass="labelFix" stylesheets="@../asset/style.css" text="Qte" />
+                        <Label layoutX="116.0" layoutY="28.0" minHeight="-Infinity" prefHeight="27.0" prefWidth="122.0" styleClass="labelFix" stylesheets="@../asset/style.css" text="1" />
+                        <Label layoutY="27.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="28.0" prefWidth="116.0" styleClass="labelFix" stylesheets="@../asset/style.css" text="1063*" />
+                    </children>
+                </AnchorPane>
+            </children>
+        </FlowPane>
+        <FlowPane layoutX="372.0" layoutY="2783.0" prefHeight="224.0" prefWidth="317.0" styleClass="borderTable" stylesheets="@../../../../../pejoProject/src/com/resources/date.css">
+            <children>
+                <Label prefHeight="18.0" prefWidth="33.0" stylesheets="@../../../../../pejoProject/src/com/resources/date.css" text="22">
+                    <padding>
+                        <Insets left="5.0" />
+                    </padding>
+                    <styleClass>
+                        <String fx:value="borderTable" />
+                        <String fx:value="fontSize" />
+                        <String fx:value="paddingText" />
+                    </styleClass>
+                </Label>
+                <Label prefHeight="35.0" prefWidth="298.0" stylesheets="@../asset/style.css" text="Support moteur essui glace">
+                    <padding>
+                        <Insets left="10.0" />
+                    </padding>
+                    <styleClass>
+                        <String fx:value="paddingText" />
+                        <String fx:value="borderTable" />
+                    </styleClass>
+                </Label>
+                <ImageView fitHeight="144.0" fitWidth="331.0" pickOnBounds="true" smooth="false" styleClass="borderTable">
+                    <image>
+                        <Image url="@../../../../../checkLists/src/com/resources/img/compos/c22.png" />
+                    </image>
+                </ImageView>
+                <ComboBox fx:id="comp22" prefHeight="54.0" prefWidth="93.0" promptText="0" styleClass="compoValue" stylesheets="@../asset/style.css" />
+                <AnchorPane prefHeight="49.0" prefWidth="236.0">
+                    <children>
+                        <Label minHeight="-Infinity" prefHeight="29.0" prefWidth="116.0" styleClass="labelFix" stylesheets="@../asset/style.css" text="35406" />
+                        <Label layoutX="116.0" minHeight="-Infinity" prefHeight="28.0" prefWidth="122.0" styleClass="labelFix" stylesheets="@../asset/style.css" text="Qte" />
+                        <Label layoutX="116.0" layoutY="28.0" minHeight="-Infinity" prefHeight="27.0" prefWidth="122.0" styleClass="labelFix" stylesheets="@../asset/style.css" text="1" />
+                        <Label layoutY="27.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="28.0" prefWidth="116.0" styleClass="labelFix" stylesheets="@../asset/style.css" text="1037" />
+                    </children>
+                </AnchorPane>
+            </children>
+        </FlowPane>
+        <FlowPane layoutX="22.0" layoutY="1150.0" prefHeight="224.0" prefWidth="317.0" styleClass="borderTable" stylesheets="@../../../../../pejoProject/src/com/resources/date.css">
+            <children>
+                <Label prefHeight="18.0" prefWidth="19.0" stylesheets="@../../../../../pejoProject/src/com/resources/date.css" text="9">
+                    <padding>
+                        <Insets left="5.0" />
+                    </padding>
+                    <styleClass>
+                        <String fx:value="borderTable" />
+                        <String fx:value="fontSize" />
+                        <String fx:value="paddingText" />
+                    </styleClass>
+                </Label>
+                <Label prefHeight="35.0" prefWidth="307.0" stylesheets="@../asset/style.css" text=" Fixation flexible frein -AV AR">
+                    <padding>
+                        <Insets left="10.0" />
+                    </padding>
+                    <styleClass>
+                        <String fx:value="paddingText" />
+                        <String fx:value="borderTable" />
+                    </styleClass>
+                </Label>
+                <ImageView fitHeight="173.0" fitWidth="331.0" pickOnBounds="true" smooth="false" styleClass="borderTable">
+                    <image>
+                        <Image url="@../../../../../checkLists/src/com/resources/img/compos/c9.png" />
+                    </image>
+                </ImageView>
+                <ComboBox fx:id="comp9" prefHeight="54.0" prefWidth="93.0" promptText="0" styleClass="compoValue" stylesheets="@../asset/style.css" />
+                <AnchorPane prefHeight="49.0" prefWidth="236.0">
+                    <children>
+                        <Label minHeight="-Infinity" prefHeight="29.0" prefWidth="116.0" styleClass="labelFix" stylesheets="@../asset/style.css" text="35420" />
+                        <Label layoutX="116.0" minHeight="-Infinity" prefHeight="28.0" prefWidth="122.0" styleClass="labelFix" stylesheets="@../asset/style.css" text="Qte" />
+                        <Label layoutX="116.0" layoutY="28.0" minHeight="-Infinity" prefHeight="27.0" prefWidth="122.0" styleClass="labelFix" stylesheets="@../asset/style.css" text="4" />
+                        <Label layoutY="27.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="28.0" prefWidth="116.0" styleClass="labelFix" stylesheets="@../asset/style.css" text="1075" />
+                    </children>
+                </AnchorPane>
+            </children>
+        </FlowPane>
+        <FlowPane layoutX="22.0" layoutY="623.0" prefHeight="237.0" prefWidth="335.0" styleClass="borderTable" stylesheets="@../../../../../pejoProject/src/com/resources/date.css">
+            <children>
+                <Label prefHeight="18.0" prefWidth="19.0" stylesheets="@../../../../../pejoProject/src/com/resources/date.css" text="5">
+                    <padding>
+                        <Insets left="5.0" />
+                    </padding>
+                    <styleClass>
+                        <String fx:value="borderTable" />
+                        <String fx:value="fontSize" />
+                        <String fx:value="paddingText" />
+                    </styleClass>
+                </Label>
+                <Label prefHeight="35.0" prefWidth="307.0" stylesheets="@../asset/style.css" text="Gousset equerage arche AV">
+                    <padding>
+                        <Insets left="10.0" />
+                    </padding>
+                    <styleClass>
+                        <String fx:value="paddingText" />
+                        <String fx:value="borderTable" />
+                    </styleClass>
+                </Label>
+                <ImageView fitHeight="144.0" fitWidth="331.0" pickOnBounds="true" smooth="false">
+                    <image>
+                        <Image url="@../../../../../checkLists/src/com/resources/img/compos/c5.png" />
+                    </image>
+                    <styleClass>
+                        <String fx:value="borderTable" />
+                        <String fx:value="imgSize" />
+                    </styleClass>
+                </ImageView>
+                <ComboBox fx:id="comp5" prefHeight="54.0" prefWidth="93.0" promptText="0" styleClass="compoValue" stylesheets="@../asset/style.css" />
+                <AnchorPane prefHeight="49.0" prefWidth="236.0">
+                    <children>
+                        <Label minHeight="-Infinity" prefHeight="29.0" prefWidth="116.0" styleClass="labelFix" stylesheets="@../asset/style.css" text="35400" />
+                        <Label layoutX="116.0" minHeight="-Infinity" prefHeight="28.0" prefWidth="122.0" styleClass="labelFix" stylesheets="@../asset/style.css" text="Qte" />
+                        <Label layoutX="116.0" layoutY="28.0" minHeight="-Infinity" prefHeight="27.0" prefWidth="122.0" styleClass="labelFix" stylesheets="@../asset/style.css" text="2" />
+                        <Label layoutY="27.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="28.0" prefWidth="116.0" styleClass="labelFix" stylesheets="@../asset/style.css" text="1005" />
+                    </children>
+                </AnchorPane>
+            </children>
+        </FlowPane>
+        <Button fx:id="composantRetoucher" layoutX="22.0" layoutY="3095.0" mnemonicParsing="false" onAction="#actionRework" prefHeight="47.0" prefWidth="120.0" stylesheets="@../asset/style.css" text="Retoucher">
+            <padding>
+                <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+            </padding>
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Button>
+        <Button fx:id="compValEnr" layoutX="507.0" layoutY="3095.0" mnemonicParsing="false" onAction="#ValidSave" prefHeight="47.0" prefWidth="120.0" stylesheets="@../asset/style.css" text="Valider">
+            <padding>
+                <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+            </padding>
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Button>
+      <TextField fx:id="showMessage" editable="false" layoutX="264.0" layoutY="3162.0" prefHeight="60.0" prefWidth="191.0" promptText="selecter les valeures">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </TextField>
+<!--      <TextField fx:id="showMessage" layoutX="220.0" layoutY="3184.0" prefHeight="77.0" prefWidth="200.0" promptText="selectioner les Valeurs">-->
+<!--         <font>-->
+<!--            <Font size="14.0" />-->
+<!--         </font>-->
+<!--      </TextF>-->
+    </AnchorPane>
+
+</ListView>

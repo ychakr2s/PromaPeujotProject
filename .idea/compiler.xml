@@ -6,9 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="scanView" />
         <module name="scanTrennen" />
         <module name="scanSoftware" />
+        <module name="scanView" />
+        <module name="pejoProject" />
       </profile>
     </annotationProcessing>
   </component>

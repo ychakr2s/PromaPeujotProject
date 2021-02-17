@@ -1,30 +1,130 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="7568c3df-57ef-49d6-9482-44e38cf979f4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/service/ReadFile/GraphCreator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/service/ReadFile/dimacsGraphCreator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/service/ReadFile/jsonGraphCreator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/service/ReadFile/selfGeneratedCreator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Anforderung.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Check list O2C.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/proma/controller/ComposantController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/proma/controller/ControlProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/proma/controller/ControlViewer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/proma/controller/IsolaController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/proma/controller/ReadManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/proma/controller/WriteManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/proma/model/CheckListComposants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/proma/model/Control.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/proma/model/ControlStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/proma/model/Gravure.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/proma/model/IControl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/proma/model/NumChassis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/proma/model/Operator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/proma/model/Qcl2FirstPart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/proma/model/Qcl2SencondPart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/proma/model/Qcl3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/proma/model/Shift.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/proma/model/Validation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/resources/asset/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/resources/date.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/resources/fxml/controle.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/resources/fxml/isola.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/resources/fxml/qcl.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/resources/fxml/qclTest.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/resources/img/bild1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/resources/img/compos/c1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/resources/img/compos/c10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/resources/img/compos/c11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/resources/img/compos/c12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/resources/img/compos/c13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/resources/img/compos/c14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/resources/img/compos/c15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/resources/img/compos/c16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/resources/img/compos/c17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/resources/img/compos/c18.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/resources/img/compos/c19.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/resources/img/compos/c2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/resources/img/compos/c20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/resources/img/compos/c21.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/resources/img/compos/c22.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/resources/img/compos/c3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/resources/img/compos/c4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/resources/img/compos/c5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/resources/img/compos/c6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/resources/img/compos/c7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/resources/img/compos/c8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/resources/img/compos/c9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/resources/img/qcl1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/resources/img/qcl10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/resources/img/qcl11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/resources/img/qcl12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/resources/img/qcl13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/resources/img/qcl14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/resources/img/qcl15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/resources/img/qcl16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/resources/img/qcl17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/resources/img/qcl18.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/resources/img/qcl2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/resources/img/qcl201.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/resources/img/qcl202.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/resources/img/qcl203.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/resources/img/qcl204.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/resources/img/qcl205.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/resources/img/qcl206.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/resources/img/qcl207.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/resources/img/qcl3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/resources/img/qcl4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/resources/img/qcl5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/resources/img/qcl6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/resources/img/qcl7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/resources/img/qcl8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/resources/img/qcl9.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/service/Algorithm/scanAlgorithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/Algorithm/scanAlgorithm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/service/ReadFile/readGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/ReadFile/readGraph.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/controller/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controller/Controller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/service/Algorithm/scanAlgorithm.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/service/Algorithm/scanAlgorithm.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/service/ReadFile/readGraph.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/service/ReadFile/readGraph.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/Controller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/proma/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/Algorithm/scanAlgorithm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/CreateJson/scanJson.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/CreateJson/scanJsonOutput.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/Graph/graph.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/ReadFile/GraphCreator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/ReadFile/dimacsGraphCreator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/ReadFile/jsonGraphCreator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/ReadFile/readGraph.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/ReadFile/selfGeneratedCreator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/abstractAlgorithm/abstractScan.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/scan.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/scanView.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/controller/Controller.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fxml/scan.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/service/Algorithm/scanAlgorithm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/service/CreateJson/scanJson.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/service/CreateJson/scanJsonOutput.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/service/Graph/graph.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/service/ReadFile/GraphCreator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/service/ReadFile/dimacsGraphCreator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/service/ReadFile/jsonGraphCreator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/service/ReadFile/readGraph.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/service/ReadFile/selfGeneratedCreator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/service/abstractAlgorithm/abstractScan.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="FxmlFile" />
+        <option value="JavaFXApplication" />
         <option value="Class" />
       </list>
     </option>
@@ -33,10 +133,10 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:\Programme\IntelliJ IDEA 2020.2.3\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
     </option>
   </component>
   <component name="ProjectId" id="1bACzS0VuDT78LZlA56X0oND5fQ" />
@@ -45,7 +145,6 @@
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -54,11 +153,15 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/service/ReadFile" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Language Defaults" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Projects\pejoProject\src\com\resources\fxml" />
+      <recent name="D:\Projects\pejoProject\src\com\resources" />
+      <recent name="D:\Projects\pejoProject\src\com\resources\img" />
       <recent name="D:\Projects\scanView\src\main\java\service\ReadFile" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -72,7 +175,7 @@
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="main.Main" />
-      <module name="scanView" />
+      <module name="pejoProject" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="main.*" />
@@ -89,6 +192,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="checkList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.checkList" />
+      <module name="pejoProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,48 +238,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="scanString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="service.Main.scanString" />
-      <module name="scanView" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="service.Main.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.scanString" />
       <item itemvalue="Application.scanFileJson" />
       <item itemvalue="Application.scanFileString" />
       <item itemvalue="Application.Test" />
+      <item itemvalue="Application.checkList" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.checkList" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.scanFileJson" />
         <item itemvalue="Application.scanFileString" />
-        <item itemvalue="Application.scanString" />
       </list>
     </recent_temporary>
   </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
-  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -193,92 +285,105 @@
       <workItem from="1593446855079" duration="1421000" />
       <workItem from="1593641514502" duration="714000" />
       <workItem from="1593901978737" duration="1899000" />
+      <workItem from="1609965010158" duration="7346000" />
+      <workItem from="1610045304163" duration="6764000" />
+      <workItem from="1610133744807" duration="1222000" />
+      <workItem from="1610181712554" duration="14325000" />
+      <workItem from="1610879093019" duration="3436000" />
+      <workItem from="1610905618609" duration="741000" />
+      <workItem from="1611091245030" duration="638000" />
+      <workItem from="1612471834262" duration="711000" />
+      <workItem from="1612472579025" duration="10407000" />
+      <workItem from="1612560052536" duration="8620000" />
+      <workItem from="1612614428490" duration="612000" />
+      <workItem from="1613155651305" duration="4275000" />
+      <workItem from="1613416860232" duration="11831000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="542" y="141" key="#Main" timestamp="1593028743572">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="2597" y="178" key="#Main/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1588112248803" />
-    <state x="542" y="141" key="#Main/0.0.1536.824@0.0.1536.824" timestamp="1593028743572" />
-    <state x="331" y="134" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593036611141">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="331" y="134" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1589025335077" />
-    <state x="2334" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1588113519493" />
-    <state x="331" y="134" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1593036611141" />
-    <state x="2609" y="303" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1588112245850">
+    <state x="2334" y="175" width="1092" height="716" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1609965090427">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2609" y="303" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1588112245850" />
-    <state x="592" y="217" key="FileChooserDialogImpl" timestamp="1593449960663">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="2334" y="175" width="1092" height="716" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.0.1536.832/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1609965090427" />
+    <state x="765" y="224" key="#com.intellij.ide.util.MemberChooser" timestamp="1613156718296">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="592" y="217" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1589026943459" />
-    <state x="2660" y="274" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1589134640438" />
-    <state x="592" y="217" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1593449960663" />
-    <state width="1877" height="144" key="GridCell.Tab.0.bottom" timestamp="1593903964075">
+    <state x="765" y="224" key="#com.intellij.ide.util.MemberChooser/-1920.0.1536.832/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1613156718296" />
+    <state x="2660" y="275" key="FileChooserDialogImpl" timestamp="1613160112352">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1493" height="149" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1589026947990" />
-    <state width="1877" height="144" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1593903964075" />
-    <state width="1478" height="35" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593385105893" />
-    <state width="1877" height="144" key="GridCell.Tab.0.center" timestamp="1593903964075">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state x="740" y="275" key="FileChooserDialogImpl/-1920.0.1536.832/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1612474129257" />
+    <state x="2660" y="275" key="FileChooserDialogImpl/-1920.0.1536.832/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1613160112352" />
+    <state width="1877" height="259" key="GridCell.Tab.0.bottom" timestamp="1613430225793">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1493" height="149" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1589026947990" />
-    <state width="1877" height="144" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1593903964075" />
-    <state width="1478" height="35" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1593385105893" />
-    <state width="1877" height="144" key="GridCell.Tab.0.left" timestamp="1593903964074">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="1877" height="259" key="GridCell.Tab.0.bottom/-1920.0.1536.832/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1613430225793" />
+    <state width="1877" height="78" key="GridCell.Tab.0.bottom/-1920.0.1536.832/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1613160113558" />
+    <state width="1877" height="259" key="GridCell.Tab.0.center" timestamp="1613430225793">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1493" height="149" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1589026947990" />
-    <state width="1877" height="144" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1593903964074" />
-    <state width="1478" height="35" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1593385105893" />
-    <state width="1877" height="144" key="GridCell.Tab.0.right" timestamp="1593903964075">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="1877" height="259" key="GridCell.Tab.0.center/-1920.0.1536.832/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1613430225793" />
+    <state width="1877" height="78" key="GridCell.Tab.0.center/-1920.0.1536.832/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1613160113557" />
+    <state width="1877" height="259" key="GridCell.Tab.0.left" timestamp="1613430225793">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1493" height="149" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1589026947990" />
-    <state width="1877" height="144" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1593903964075" />
-    <state width="1478" height="35" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1593385105893" />
-    <state x="2013" y="100" width="770" height="853" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1593903962872">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="1877" height="259" key="GridCell.Tab.0.left/-1920.0.1536.832/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1613430225793" />
+    <state width="1877" height="78" key="GridCell.Tab.0.left/-1920.0.1536.832/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1613160113557" />
+    <state width="1877" height="259" key="GridCell.Tab.0.right" timestamp="1613430225793">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="2013" y="100" width="770" height="853" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1593903962872" />
-    <state x="525" y="272" key="com.intellij.ide.util.TipDialog" timestamp="1593449920877">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1877" height="259" key="GridCell.Tab.0.right/-1920.0.1536.832/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1613430225793" />
+    <state width="1877" height="78" key="GridCell.Tab.0.right/-1920.0.1536.832/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1613160113557" />
+    <state width="1877" height="346" key="GridCell.Tab.1.bottom" timestamp="1612472549277">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="525" y="272" key="com.intellij.ide.util.TipDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1591889965055" />
-    <state x="2576" y="343" key="com.intellij.ide.util.TipDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1589132428104" />
-    <state x="525" y="272" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1593449920877" />
-    <state x="473" y="35" width="609" height="789" key="find.popup" timestamp="1593028849065">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1877" height="346" key="GridCell.Tab.1.bottom/-1920.0.1536.832/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1612472549277" />
+    <state width="1877" height="346" key="GridCell.Tab.1.center" timestamp="1612472549277">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="2511" y="73" width="737" height="894" key="find.popup/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1588115879472" />
-    <state x="473" y="35" width="609" height="789" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1593028849065" />
-    <state x="2262" y="221" key="new project wizard" timestamp="1589134871065">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="1877" height="346" key="GridCell.Tab.1.center/-1920.0.1536.832/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1612472549277" />
+    <state width="1877" height="346" key="GridCell.Tab.1.left" timestamp="1612472549277">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="2262" y="221" key="new project wizard/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1589134871065" />
+    <state width="1877" height="346" key="GridCell.Tab.1.left/-1920.0.1536.832/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1612472549277" />
+    <state width="1877" height="346" key="GridCell.Tab.1.right" timestamp="1612472549277">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="346" key="GridCell.Tab.1.right/-1920.0.1536.832/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1612472549277" />
+    <state x="461" y="164" key="SettingsEditor" timestamp="1612477104547">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="164" key="SettingsEditor/-1920.0.1536.832/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1612477104547" />
+    <state x="1236" y="322" key="extract.method.dialog" timestamp="1612478031269">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1236" y="322" key="extract.method.dialog/-1920.0.1536.832/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1612478031269" />
+    <state x="551" y="180" key="new project wizard" timestamp="1610274188940">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="551" y="180" key="new project wizard/-1920.0.1536.832/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1610274188940" />
+    <state x="655" y="274" key="refactoring.ChangeSignatureDialog" timestamp="1613424405330">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="655" y="274" key="refactoring.ChangeSignatureDialog/-1920.0.1536.832/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1613424405330" />
   </component>
 </project>
